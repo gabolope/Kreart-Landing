@@ -1,4 +1,28 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "biko";
+  src: url(../media/fonts/biko_regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "biko-bold";
+  src: url(../media/fonts/biko_bold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "biko-bolder";
+  src: url(../media/fonts/biko_black.otf);
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: "biko-light";
+  src: url(../media/fonts/biko_light-restricted.otf);
+  font-weight: light;
+  font-style: normal;
+}
 /* General styling */
 *,
 ::after,
@@ -36,4 +60,21 @@ button,
 select {
   font: inherit;
   margin: 0;
+}
+
+.wrapper {
+  /* Agrego un wrapper de max-width 1600px para lidiar con el stretching en dispositivos grandes */
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.mapswrapper {
+  background: #fff;
+  position: relative;
+}
+
+.mapswrapper iframe {
+  border: 0;
+  position: relative;
+  z-index: 2;
 }/*# sourceMappingURL=styles.css.map */

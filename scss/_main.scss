@@ -1,0 +1,10 @@
+.mapswrapper {
+    background: #fff;
+    position: relative
+}
+
+.mapswrapper iframe {
+    border: 0;
+    position: relative;
+    z-index: 2
+}
