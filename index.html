@@ -10,21 +10,41 @@
     <title>Kreart</title>
     <link rel="icon" href="./media/light-favicon.png" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="./media/dark-favicon.png" media="(prefers-color-scheme: light)" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <nav class="navbar">
-        <div class="navbar-title"></div>
-        <div class="navbar-links"></div>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a href="#">
+            <img src="./media/logo-text.png" class="nav-banner" alt="Logo de Kreart" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="./sobrenosotros.html">Sobre Nosotros</a>
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </div>
+          </div>
+          <div class="navbar-gradient"></div>
+        </div>
       </nav>
-      <section class="hero">
-        <div class="hero-header"></div>
-        <div class="hero-image"></div>
-        <div class="hero-info"></div>
-      </section>
     </header>
+    <section class="hero">
+      <div class="hero-header"></div>
+      <div class="hero-image"></div>
+      <div class="hero-info"></div>
+    </section>
     <div class="main">
       <section class="products">
         <div class="products-header"></div>
@@ -36,15 +56,45 @@
         <div class="contact-image"></div>
         <div class="contact-text"></div>
       </section>
-      <section class="maps-container">
+      <!-- <section class="maps-container">
         <div class="mapswrapper"><iframe width="600" height="450" loading="lazy" allowfullscreen
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Kreart&zoom=13&maptype=roadmap"></iframe>
         </div>
-      </section>
+      </section> -->
     </div>
     <footer>
-      <div class="footer-header"></div>
-      <div class="footer-text"></div>
+      <div class="footer-header">
+        <div class="footer-mail"><a href="">info@kreart.com.ar</a></div>
+        <div class="footer-divisor"></div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/kreartdpm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"><img src="./media/instagram.png" alt="Instagram"></a>
+          <a href="https://ar.pinterest.com/kreartdpm/" target="_blank"><img src="./media/pinterest.png"
+              alt="Pinterest"></a>
+          <a href="https://www.facebook.com/kreartdpm/" target="_blank"><img src="./media/facebook.png"
+              alt="Facebook"></a>
+          <a href="https://www.youtube.com/kreartdpm/" target="_blank"><img src="./media/youtube.png" alt="Youtube"></a>
+        </div>
+      </div>
+      <div class="footer-text">
+        <b>Teléfono</b> <br>
+        Fábrica: (011) 4754 – 3940 <br>
+        WhatsApp: +54 9 11 4438-2626 <br>
+        <br>
+        <b>Horario</b><br>
+        Lunes a viernes de 8:00 a 13:00 y de 14:00 a 17:00 <br>
+        <br>
+        <b>Dirección</b><br>
+        Fábrica: Francia 3721, San Martin (1650) – Provincia de Buenos Aires <br>
+        <br>
+        Showroom : Av. Del Libertador Gral. San Martin 1404. <br>
+        San Martin (1650) – Provincia de Buenos Aires
+
+      </div>
+      <div class="footer-suri">
+        <div>Diseñado por Suri Digital</div>
+        <img src="./media/suri.png" alt="Suri Digital">
+      </div>
     </footer>
   </body>
 

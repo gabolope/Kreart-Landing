@@ -1,0 +1,132 @@
+.header {
+    nav {
+        padding: 0.25rem 0 0 0;
+        width: 100%;
+        z-index: 5;
+
+        @media only screen and (min-width: 992px) {
+            padding: 1.25rem 0 0 0;
+            position: static;
+        }
+
+        .container-fluid {
+            flex-direction: row;
+            padding: 0;
+
+            @media only screen and (min-width: 992px) {
+                flex-direction: column;
+            }
+
+            &>a {
+                text-decoration: none;
+
+                .nav-banner {
+                    max-width: 250px;
+                    margin: 0 0 0 5px;
+
+                    @media only screen and (min-width: 350px) {
+                        max-width: 300px;
+                        margin: 10px 0 10px 20px;
+                    }
+                }
+            }
+
+            .navbar-toggler {
+                border: 0;
+                font-size: 0.8rem;
+                height: 2rem;
+                margin: 2rem 0;
+
+                &:focus {
+                    box-shadow: none;
+                }
+
+                .navbar-toggler-icon {
+                    background-image: url('../media/hamburger.svg');
+
+                }
+            }
+
+            .navbar-collapse {
+                padding: 0;
+
+                @media only screen and (min-width: 992px) {
+                    justify-content: flex-end;
+                }
+
+                .navbar-nav {
+                    align-items: center;
+
+                    @media only screen and (min-width: 992px) {
+                        height: 2rem;
+                        margin: 1rem 0 1rem 0;
+                    }
+
+                    .nav-link {
+                        color: $kgrey;
+                        font-family: 'biko-bold';
+                        display: inline-block;
+                        margin: 0.5rem 0;
+                        position: relative;
+                        text-decoration: none;
+
+                        @media only screen and (min-width: 768px) {
+                            font-size: 1.125rem;
+                        }
+
+                        &:first-of-type {
+                            margin-top: 0;
+                            padding-top: 0;
+                        }
+
+                        &::after {
+                            background-color: $kpurple;
+                            border-radius: 40px;
+                            bottom: -5px;
+                            content: "";
+                            height: 3px;
+                            left: 0;
+                            position: absolute;
+                            transform: scaleX(0);
+                            transform-origin: right;
+                            transition: transform 0.3s;
+                            width: 100%;
+                        }
+
+                        &:hover {
+                            &::after {
+                                transform-origin: left;
+                                transform: scaleX(1);
+                            }
+                        }
+
+                        @media only screen and (min-width: 992px) {
+                            margin: 0 1.25rem;
+                            padding: 0;
+                        }
+                    }
+
+                    &>img {
+                        max-width: 250px;
+                        width: 100%;
+
+                        @media only screen and (min-width: 992px) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .navbar-gradient {
+                background: $kred;
+                border: 0;
+                height: 0.5rem;
+                width: 100%;
+
+                @media only screen and (min-width: 992px) {
+                    height: 1rem;
+                }
+            }
+        }
+    }
+}
