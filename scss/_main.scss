@@ -1,10 +1,36 @@
-.mapswrapper {
-    background: #fff;
-    position: relative
+.section-title {
+    color: $kred;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 0 25px 0;
 }
 
-.mapswrapper iframe {
-    border: 0;
-    position: relative;
-    z-index: 2
+.section-divider {
+    width: 95vw;
+    height: 4px;
+    background-color: $kred;
+    justify-self: center
+}
+
+.button-wsp {
+
+    position: fixed;
+    z-index: 3;
+    bottom: 30px;
+    right: 30px;
+    transition: 200ms transform ease-in-out;
+    border-radius: 100%;
+    box-shadow: 0 0 2px black;
+
+    img {
+        height: 50px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        box-shadow: 0 0 3px black;
+    }
+
 }

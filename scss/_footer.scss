@@ -35,8 +35,35 @@ footer {
     }
 
     .footer-text {
+        padding: 0 10px 0 10px;
+
+
         b {
             font-size: 1.25rem;
+        }
+
+        @media (min-width: 992px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .footer-phones {
+            padding: 0 0 20px 0;
+
+            @media (min-width: 992px) {
+                padding: 0;
+                width: 40%;
+
+            }
+        }
+
+        .footer-direction {
+            @media (min-width: 992px) {
+                width: 40%;
+
+            }
         }
     }
 

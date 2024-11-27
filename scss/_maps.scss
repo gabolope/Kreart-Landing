@@ -1,0 +1,37 @@
+.maps-container {
+    margin: 0 10px 25px 10px;
+    display: grid;
+
+    iframe {
+        min-width: 250px;
+        max-width: 600px;
+        justify-self: center;
+    }
+
+    @media (min-width: 992px) {
+        background-color: $kgrey;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        iframe {
+            flex-grow: 2;
+            margin: 2rem;
+            max-width: 650px;
+
+        }
+    }
+
+    .maps-text {
+        display: none;
+
+        @media (min-width: 992px) {
+            color: white;
+            font-size: 1.15rem;
+            display: flex;
+            text-align: end;
+            padding: 0 10px 0 25px;
+        }
+    }
+}

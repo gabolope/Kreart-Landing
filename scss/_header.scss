@@ -28,6 +28,11 @@
                         max-width: 300px;
                         margin: 10px 0 10px 20px;
                     }
+
+                    @media only screen and (min-width: 992px) {
+
+                        margin: 0
+                    }
                 }
             }
 
@@ -49,6 +54,7 @@
 
             .navbar-collapse {
                 padding: 0;
+                background-color: white;
 
                 @media only screen and (min-width: 992px) {
                     justify-content: flex-end;
@@ -64,7 +70,7 @@
 
                     .nav-link {
                         color: $kgrey;
-                        font-family: 'biko-bold';
+                        font-weight: 600;
                         display: inline-block;
                         margin: 0.5rem 0;
                         position: relative;
