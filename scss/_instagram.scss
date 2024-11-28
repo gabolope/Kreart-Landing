@@ -1,0 +1,9 @@
+
+.instagram-container {
+    margin: 0 10px 25px 10px;
+    height: 800px;
+    overflow: hidden;
+    @media (min-width: 992px) {
+        height: 650px;
+    }
+}

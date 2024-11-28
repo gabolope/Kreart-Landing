@@ -21,11 +21,11 @@
                 text-decoration: none;
 
                 .nav-banner {
-                    max-width: 250px;
-                    margin: 0 0 0 5px;
+                    max-width: 150px;
+                    margin: 0 0 0 20px;
 
                     @media only screen and (min-width: 350px) {
-                        max-width: 300px;
+                        max-width: 250px;
                         margin: 10px 0 10px 20px;
                     }
 
