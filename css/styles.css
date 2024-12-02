@@ -219,35 +219,6 @@ select {
   }
 }
 
-.hero-image {
-  height: 400px;
-  background-image: url("../media/hero.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10px 0 0 0;
-}
-@media (min-width: 992px) {
-  .hero-image {
-    height: 500px;
-  }
-}
-
-.hero-text {
-  font-size: 1.75rem;
-  text-align: center;
-  margin: 40px 20px 40px 20px;
-}
-.hero-text b {
-  color: #da251d;
-}
-@media (min-width: 992px) {
-  .hero-text {
-    font-size: 2rem;
-    margin: 25px 150px 25px 150px;
-  }
-}
-
 .section-title {
   color: #da251d;
   font-weight: 600;
@@ -582,4 +553,85 @@ footer .footer-suri img {
   .instagram-container {
     height: 650px;
   }
+}
+
+.hero-container .hero-image {
+  height: 400px;
+  background-image: url("../media/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px 0 0 0;
+}
+@media (min-width: 992px) {
+  .hero-container .hero-image {
+    height: 500px;
+  }
+}
+.hero-container .hero-text {
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 40px 20px 40px 20px;
+}
+.hero-container .hero-text span {
+  color: #da251d;
+}
+@media (min-width: 992px) {
+  .hero-container .hero-text {
+    font-size: 2rem;
+    margin: 25px 150px 25px 150px;
+  }
+}
+.hero-container .hero-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+.hero-container .hero-icons .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero-container .hero-icons .icon-image {
+  width: 30px;
+}
+.hero-container .hero-icons .icon-text {
+  color: #a5b2df;
+  margin: 7px 0 0 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.hero-container .hero-phrase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+.hero-container .hero-phrase .phrase-image {
+  width: 250px;
+  -webkit-transform: translateX(-60px);
+          transform: translateX(-60px);
 }/*# sourceMappingURL=styles.css.map */
