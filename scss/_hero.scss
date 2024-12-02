@@ -23,7 +23,7 @@
 
         @media (min-width: 992px) {
             font-size: 2rem;
-            margin: 25px 150px 25px 150px;
+            margin: 25px 150px 75px 150px;
         }
     }
 
@@ -32,6 +32,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: end;
+        margin: 0 0 75px 0;
 
         .icon {
             display: flex;
@@ -55,10 +56,41 @@
     .hero-phrase {
         display: flex;
         flex-direction: column-reverse;
+        margin: 0 10px 50px 0;
 
         .phrase-image {
-            width: 250px;
+            width: 200px;
             transform: translateX(-60px);
+        }
+
+        .phrase-text {
+            font-size: 1.3rem;
+            text-align: end;
+
+
+            span:first-of-type {
+                color: $kred;
+            }
+
+            span:last-of-type {
+                color: $kpurple
+            }
+        }
+
+        @media (min-width: 992px) {
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 0 75px 50px 10px;
+
+            .phrase-image {
+                width: 250px;
+                transform: translateX(0);
+            }
+
+            .phrase-text {
+                width: 40%;
+                font-size: 1.75rem;
+            }
         }
     }
 }

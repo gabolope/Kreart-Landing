@@ -579,7 +579,7 @@ footer .footer-suri img {
 @media (min-width: 992px) {
   .hero-container .hero-text {
     font-size: 2rem;
-    margin: 25px 150px 25px 150px;
+    margin: 25px 150px 75px 150px;
   }
 }
 .hero-container .hero-icons {
@@ -596,6 +596,7 @@ footer .footer-suri img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+  margin: 0 0 75px 0;
 }
 .hero-container .hero-icons .icon {
   display: -webkit-box;
@@ -629,9 +630,40 @@ footer .footer-suri img {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
+  margin: 0 10px 50px 0;
 }
 .hero-container .hero-phrase .phrase-image {
-  width: 250px;
+  width: 200px;
   -webkit-transform: translateX(-60px);
           transform: translateX(-60px);
+}
+.hero-container .hero-phrase .phrase-text {
+  font-size: 1.3rem;
+  text-align: end;
+}
+.hero-container .hero-phrase .phrase-text span:first-of-type {
+  color: #da251d;
+}
+.hero-container .hero-phrase .phrase-text span:last-of-type {
+  color: #a5b2df;
+}
+@media (min-width: 992px) {
+  .hero-container .hero-phrase {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 75px 50px 10px;
+  }
+  .hero-container .hero-phrase .phrase-image {
+    width: 250px;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .hero-container .hero-phrase .phrase-text {
+    width: 40%;
+    font-size: 1.75rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
