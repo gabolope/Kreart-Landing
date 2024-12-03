@@ -3,14 +3,84 @@
     font-weight: 600;
     font-size: 1.5rem;
     text-align: center;
-    margin: 0 0 25px 0;
+    margin: 25px 0 25px 0;
 }
 
 .section-divider {
-    width: 95vw;
+    width: calc(100vw - 20px);
     height: 4px;
     background-color: $kred;
     justify-self: center
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .box {
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin: 20px 30px 20px 30px;
+
+        button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: .25rem;
+            font-size: 1.5rem;
+            width: 125px;
+            background-color: hsla(0, 0%, 0%, 0.5);
+            color: white;
+            border: 1px solid white;
+            transition: ease-in-out 200ms;
+
+            &:hover {
+                background-color: hsla(0, 0%, 0%, 0.75);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+            }
+
+            &:active {
+                background-color: hsla(0, 0%, 0%, 0.25);
+                transition: none;
+            }
+        }
+    }
+
+    .empresa {
+        background-image: url('../media/empresa.png');
+    }
+
+    .hogar {
+        background-image: url('../media/hogar.png');
+        margin-bottom: 50px;
+    }
+
+    @media (min-width:992px) {
+        flex-direction: row;
+        justify-content: center;
+        width: calc(100vw - 20px);
+        justify-self: center;
+
+        .box {
+            width: calc(100vw - 20px);
+            height: 500px;
+            margin: 0 0 50px 0;
+
+            button {
+                font-size: 2rem;
+                width: 300px;
+            }
+        }
+
+        .empresa {
+            margin-right: 10px;
+        }
+    }
 }
 
 .instagram-title {

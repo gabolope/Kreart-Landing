@@ -224,14 +224,92 @@ select {
   font-weight: 600;
   font-size: 1.5rem;
   text-align: center;
-  margin: 0 0 25px 0;
+  margin: 25px 0 25px 0;
 }
 
 .section-divider {
-  width: 95vw;
+  width: calc(100vw - 20px);
   height: 4px;
   background-color: #da251d;
   justify-self: center;
+}
+
+.products-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.products-container .box {
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 20px 30px 20px 30px;
+}
+.products-container .box button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 0.25rem;
+  font-size: 1.5rem;
+  width: 125px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  color: white;
+  border: 1px solid white;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+.products-container .box button:hover {
+  background-color: hsla(0, 0%, 0%, 0.75);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.products-container .box button:active {
+  background-color: hsla(0, 0%, 0%, 0.25);
+  -webkit-transition: none;
+  transition: none;
+}
+.products-container .empresa {
+  background-image: url("../media/empresa.png");
+}
+.products-container .hogar {
+  background-image: url("../media/hogar.png");
+  margin-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .products-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: calc(100vw - 20px);
+    justify-self: center;
+  }
+  .products-container .box {
+    width: calc(100vw - 20px);
+    height: 500px;
+    margin: 0 0 50px 0;
+  }
+  .products-container .box button {
+    font-size: 2rem;
+    width: 300px;
+  }
+  .products-container .empresa {
+    margin-right: 10px;
+  }
 }
 
 .instagram-title {
