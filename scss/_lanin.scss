@@ -1,0 +1,33 @@
+.lanin-container {
+    margin: 0 10px 25px 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    .lanin-title {
+        grid-area: 1 / 1 / 2 / 5;
+        font-size: 1.5rem;
+        text-align: end;
+        margin: 50px 0 0 0;
+
+        span {
+            color: $laninblue;
+            font-weight: bold;
+        }
+    }
+
+    .lanin-image {
+        grid-area: 2 / 1 / 4 / 3;
+        transform: translateX(-100px) scale(1.5);
+        align-self: center;
+        z-index: -1;
+    }
+
+    .lanin-text {
+        text-align: end;
+        color: $laninblue;
+        grid-area: 2 / 3 / 4 / 5;
+    }
+}

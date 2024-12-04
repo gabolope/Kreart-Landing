@@ -744,4 +744,35 @@ footer .footer-suri img {
     width: 40%;
     font-size: 1.75rem;
   }
+}
+
+.lanin-container {
+  margin: 0 10px 25px 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.lanin-container .lanin-title {
+  grid-area: 1/1/2/5;
+  font-size: 1.5rem;
+  text-align: end;
+  margin: 50px 0 0 0;
+}
+.lanin-container .lanin-title span {
+  color: #011c45;
+  font-weight: bold;
+}
+.lanin-container .lanin-image {
+  grid-area: 2/1/4/3;
+  -webkit-transform: translateX(-100px) scale(1.5);
+          transform: translateX(-100px) scale(1.5);
+  align-self: center;
+  z-index: -1;
+}
+.lanin-container .lanin-text {
+  text-align: end;
+  color: #011c45;
+  grid-area: 2/3/4/5;
 }/*# sourceMappingURL=styles.css.map */
