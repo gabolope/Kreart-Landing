@@ -1,0 +1,118 @@
+.nosotrosHeader-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .nosotrosHeader-text {
+        font-size: 1.5rem;
+        margin: 30px 0 0 30px;
+
+        span {
+            color: $kred;
+        }
+
+        span:last-of-type {
+            color: $kpurple
+        }
+    }
+
+    .nosotrosHeader-image {
+        transform: translateX(150px) translateY(-25px);
+        z-index: -1;
+        object-fit: scale-down;
+    }
+
+    @media (min-width: 992px) {
+        flex-direction: row;
+        align-items: center;
+        margin: 0 0 0 100px;
+
+        .nosotrosHeader-text {
+            font-size: 2rem;
+        }
+    }
+}
+
+.nosotrosTitle {
+    font-size: 2rem;
+}
+
+.nosotrosBoxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    text-align: center;
+    margin: 0 30px 75px 30px;
+    justify-items: center;
+    color: white;
+
+
+    .box {
+        background-color: $kgrey;
+        width: 170px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .box2 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .box3 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .box4 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .boxNumber {
+        font-size: 3rem;
+    }
+
+    .boxText {
+        font-size: 1.4rem;
+        padding: auto;
+    }
+
+    @media (max-width: 460px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media (min-width: 992px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .box {
+            width: 200px;
+            height: 250px;
+        }
+    }
+}
+
+.nosotrosCarousel {
+    .carousel-caption {
+        background-color: hsla(0, 0%, 0%, 0.25);
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .nosotrosCarousel-text {
+        text-align: end;
+        padding: 0 50px;
+        font-size: 1.5rem;
+    }
+}

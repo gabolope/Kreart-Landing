@@ -115,3 +115,18 @@
     }
 
 }
+
+.breadcrumbs {
+    color: $kgrey;
+    margin: 5px 0 0 20px;
+    font-size: .9rem;
+
+    a {
+        color: $kgrey;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
