@@ -228,10 +228,9 @@ select {
 }
 
 .section-divider {
-  width: calc(100vw - 20px);
-  height: 4px;
-  background-color: #da251d;
-  justify-self: center;
+  margin: 0 10px 0 10px;
+  border-top: 4px solid #da251d;
+  opacity: 1;
 }
 
 .products-container {
@@ -295,7 +294,8 @@ select {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: calc(100vw - 20px);
+    width: 100%;
+    padding: 0 10px 0 10px;
     justify-self: center;
   }
   .products-container .box {
@@ -637,13 +637,6 @@ footer .footer-suri img {
 
 .instagram-container {
   margin: 0 10px 25px 10px;
-  height: 800px;
-  overflow: hidden;
-}
-@media (min-width: 992px) {
-  .instagram-container {
-    height: 650px;
-  }
 }
 
 .hero-container .hero-image {
