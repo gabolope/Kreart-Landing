@@ -1,0 +1,65 @@
+.productosHero-container {
+    .hero-image {
+        width: 100%;
+        height: 200px;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px 0 0 0;
+        position: relative;
+
+        @media (min-width: 992px) {
+            height: 400px;
+        }
+
+    }
+
+    .empresa {
+        background-image: url("../media/productos/empresaHero.png");
+    }
+
+    .hogar {
+        background-image: url("../media/productos/hogarHero.png");
+    }
+
+    .hero-text {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+        color: white;
+        position: absolute;
+        bottom: 30px;
+        right: 25px;
+        text-shadow: 1px 1px 2px black;
+
+        span {
+            color: $kred
+        }
+
+        @media (min-width: 992px) {
+            font-size: 2rem;
+            margin: 0;
+        }
+    }
+
+    .redDivider {
+        border-top: 5px solid $kred;
+        opacity: 1;
+        margin: 7px 0 3px 0;
+    }
+
+    .purpleDivider {
+        border-top: 3px solid $kpurple;
+        opacity: 1;
+        margin: 0 0 10px 0;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+
+        @media (min-width: 992px) {
+            font-size: 2rem;
+        }
+    }
+}

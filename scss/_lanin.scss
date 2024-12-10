@@ -5,6 +5,7 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+    color: $kdarkgrey;
 
     .lanin-title {
         grid-area: 1 / 1 / 2 / 5;
