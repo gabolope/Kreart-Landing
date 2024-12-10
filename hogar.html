@@ -1,100 +1,130 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Somos una empresa especializada en la producción de muebles de alta calidad. Brindamos a nuestros clientes ideas creativas e innovadoras, priorizando las necesidades de su empresa y la comodidad en su hogar."
+    />
+    <meta name="robots" content="index, follow" />
+    <title>Kreart</title>
+    <link
+      rel="icon"
+      href="./media/light-favicon.png"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link
+      rel="icon"
+      href="./media/dark-favicon.png"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description"
-            content="Somos una empresa especializada en la producción de muebles de alta calidad. Brindamos a nuestros clientes ideas creativas e innovadoras, priorizando las necesidades de su empresa y la comodidad en su hogar.">
-        <meta name="robots" content="index, follow">
-        <title>Kreart</title>
-        <link rel="icon" href="./media/light-favicon.png" media="(prefers-color-scheme: dark)" />
-        <link rel="icon" href="./media/dark-favicon.png" media="(prefers-color-scheme: light)" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-            crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    </head>
-
-    <body>
-        <header class="header">
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container-fluid">
-                    <a href="./index.html">
-                        <img src="./media/logo-text.png" class="nav-banner" alt="Logo de Kreart" />
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link" href="./index.html">INICIO</a>
-                            <a class="nav-link" href="./productos.html">PRODUCTOS</a>
-                            <a class="nav-link" href="./nosotros.html">SOBRE NOSOTROS</a>
-                        </div>
-                    </div>
-                    <div class="navbar-gradient"></div>
-                </div>
-            </nav>
-        </header>
-        <div class="breadcrumbs">
-            <a href="./index.html">Inicio</a> / <a href="./productos.html">Productos</a> / <a
-                href="./hogar.html">Hogar</a>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="./index.html">
+            <img
+              src="./media/logo-text.png"
+              class="nav-banner"
+              alt="Logo de Kreart"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">INICIO</a>
+              <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+              <a class="nav-link" href="./nosotros.html">SOBRE NOSOTROS</a>
+            </div>
+          </div>
         </div>
-        <section class="productosHero-container">
-            <div class="hero-image hogar">
-                <h4 class="hero-text">Hogar</h4>
-            </div>
-            <hr class="redDivider">
-            <hr class="purpleDivider">
-            <div class="section-title">Todo lo que buscas para tu hogar</div>
-        </section>
-        <footer>
-            <div class="footer-header">
-                <div class="footer-mail"><a href="">info@kreart.com.ar</a></div>
-                <div class="footer-divisor"></div>
-                <div class="footer-social">
-                    <a href="https://www.instagram.com/kreartdpm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                        target="_blank"><img src="./media/instagram.png" alt="Instagram"></a>
-                    <a href="https://ar.pinterest.com/kreartdpm/" target="_blank"><img src="./media/pinterest.png"
-                            alt="Pinterest"></a>
-                    <a href="https://www.facebook.com/kreartdpm/" target="_blank"><img src="./media/facebook.png"
-                            alt="Facebook"></a>
-                    <a href="https://www.youtube.com/kreartdpm/" target="_blank"><img src="./media/youtube.png"
-                            alt="Youtube"></a>
-                </div>
-            </div>
-            <div class="footer-text">
-                <div class="footer-phones">
-                    <b>Teléfono</b> <br>
-                    Fábrica: (011) 4754 – 3940 <br>
-                    WhatsApp: +54 9 11 4438-2626 <br>
-                    <br>
-                    <b>Horario</b><br>
-                    Lunes a viernes de 8:00 a 13:00 y de 14:00 a 17:00 <br>
-                </div>
-                <div class="footer-direction">
-                    <b>Dirección</b><br>
-                    Fábrica: Francia 3721, San Martin (1650) – Provincia de Buenos Aires <br>
-                    <br>
-                    Showroom : Av. Del Libertador Gral. San Martin 1404. <br>
-                    San Martin (1650) – Provincia de Buenos Aires
-                </div>
-            </div>
-            <div class="footer-suri">
-                <div>Diseñado por Suri Digital</div>
-                <img src="./media/suri.png" alt="Suri Digital">
-            </div>
-            <div class="button-wsp">
-                <img src="./media/whatsapp.png" alt="Escribanos a WhatsApp">
-            </div>
-        </footer>
-    </body>
-
+      </nav>
+    </header>
+    <div class="breadcrumbs">
+      <a href="./index.html">Inicio</a> /
+      <a href="./productos.html">Productos</a> /
+      <a href="./hogar.html">Hogar</a>
+    </div>
+    <section class="productosHero-container">
+      <div class="hero-image hogar">
+        <h4 class="hero-text">Hogar</h4>
+      </div>
+      <hr class="redDivider" />
+      <hr class="purpleDivider" />
+      <div class="section-title">Todo lo que buscas para tu hogar</div>
+    </section>
+    <footer>
+      <div class="footer-header">
+        <div class="footer-mail"><a href="">info@kreart.com.ar</a></div>
+        <div class="footer-divisor"></div>
+        <div class="footer-social">
+          <a
+            href="https://www.instagram.com/kreartdpm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            ><img src="./media/instagram.png" alt="Instagram"
+          /></a>
+          <a href="https://ar.pinterest.com/kreartdpm/" target="_blank"
+            ><img src="./media/pinterest.png" alt="Pinterest"
+          /></a>
+          <a href="https://www.facebook.com/kreartdpm/" target="_blank"
+            ><img src="./media/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://www.youtube.com/kreartdpm/" target="_blank"
+            ><img src="./media/youtube.png" alt="Youtube"
+          /></a>
+        </div>
+      </div>
+      <div class="footer-text">
+        <div class="footer-phones">
+          <b>Teléfono</b> <br />
+          Fábrica: (011) 4754 – 3940 <br />
+          WhatsApp: +54 9 11 4438-2626 <br />
+          <br />
+          <b>Horario</b><br />
+          Lunes a viernes de 8:00 a 13:00 y de 14:00 a 17:00 <br />
+        </div>
+        <div class="footer-direction">
+          <b>Dirección</b><br />
+          Fábrica: Francia 3721, San Martin (1650) – Provincia de Buenos Aires
+          <br />
+          <br />
+          Showroom : Av. Del Libertador Gral. San Martin 1404. <br />
+          San Martin (1650) – Provincia de Buenos Aires
+        </div>
+      </div>
+      <div class="footer-suri">
+        <div>Diseñado por Suri Digital</div>
+        <img src="./media/suri.png" alt="Suri Digital" />
+      </div>
+      <div class="button-wsp">
+        <img src="./media/whatsapp.png" alt="Escribanos a WhatsApp" />
+      </div>
+    </footer>
+  </body>
 </html>

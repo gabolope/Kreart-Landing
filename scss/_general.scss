@@ -4,6 +4,7 @@
 ::after,
 ::before {
   box-sizing: border-box;
+  font-family: "biko";
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -42,8 +43,4 @@ select {
   /* Agrego un wrapper de max-width 1600px para lidiar con el stretching en dispositivos grandes */
   margin: 0 auto;
   max-width: 1600px;
-}
-
-*{
-  font-family: 'biko';
 }
