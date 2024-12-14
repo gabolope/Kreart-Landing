@@ -1,6 +1,7 @@
 .contact {
+  border-top: 5px solid $kred;
   margin: 3rem auto;
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 0 0.75rem;
   form {
     display: flex;
@@ -23,8 +24,8 @@
           border: none;
           border-radius: 0;
           color: white;
-          font-size: 1.1rem;
-          padding: 5px;
+          // font-size: 1.1rem;
+          padding: 0.4rem;
           margin: 0;
           width: 100%;
         }
@@ -75,7 +76,7 @@
       }
       .send {
         margin-left: auto;
-        width: 275px;
+        width: 250px;
       }
     }
   }

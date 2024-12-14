@@ -1,65 +1,109 @@
-.productosHero-container {
-    .hero-image {
-        width: 100%;
-        height: 200px;
-
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 10px 0 0 0;
-        position: relative;
-
-        @media (min-width: 992px) {
-            height: 400px;
-        }
-
+.products-container {
+  align-items: center;
+  border-top: 5px solid $kred;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 3rem auto;
+  max-width: 1200px;
+  width: 100%;
+  .section-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 0 0.75rem;
+    width: 100%;
+    @media (min-width: 1200px) {
+      flex-direction: row;
     }
-
-    .empresa {
-        background-image: url("../media/productos/empresaHero.png");
-    }
-
-    .hogar {
-        background-image: url("../media/productos/hogarHero.png");
-    }
-
-    .hero-text {
-        font-size: 2rem;
-        text-align: center;
-        margin: 0;
-        color: white;
-        position: absolute;
-        bottom: 30px;
-        right: 25px;
-        text-shadow: 1px 1px 2px black;
-
+    .box {
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 300px;
+      max-width: 300px;
+      position: relative;
+      width: 100%;
+      @media (min-width: 576px) {
+        min-height: 500px;
+        max-width: 500px;
+      }
+      &:hover {
         span {
-            color: $kred
+          background-color: hsla(0, 0%, 0%, 0.75);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5),
+            0 6px 20px 0 rgba(0, 0, 0, 0.5);
         }
-
-        @media (min-width: 992px) {
-            font-size: 2rem;
-            margin: 0;
+      }
+      &:active {
+        span {
+          background-color: hsla(0, 0%, 0%, 0.25);
+          transition: none;
         }
-    }
-
-    .redDivider {
-        border-top: 5px solid $kred;
-        opacity: 1;
-        margin: 7px 0 3px 0;
-    }
-
-    .purpleDivider {
-        border-top: 3px solid $kpurple;
-        opacity: 1;
-        margin: 0 0 10px 0;
-    }
-
-    .section-title {
-        font-size: 1.75rem;
-
-        @media (min-width: 992px) {
-            font-size: 2rem;
+      }
+      @media (min-width: 992px) {
+        height: 500px;
+        margin: 0 0 50px 0;
+        max-width: 600px;
+      }
+      span {
+        background-color: hsla(0, 0%, 0%, 0.5);
+        border: 1px solid white;
+        color: white;
+        left: 50%;
+        font-size: 1.5rem;
+        padding: 0.25em 1.75em;
+        position: absolute;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        transition: ease-in-out 200ms;
+        top: 50%;
+        @media (min-width: 576px) {
+          font-size: 1.75rem;
+          //   width: 300px;
         }
+      }
     }
+    .empresa {
+      background-image: url("../media/empresa.png");
+      @media (min-width: 992px) {
+        // margin-right: 10px;
+      }
+    }
+    .hogar {
+      background-image: url("../media/hogar.png");
+      //   margin-bottom: 50px;
+    }
+  }
+}
+
+.button-wsp {
+  position: fixed;
+  z-index: 3;
+  bottom: 30px;
+  right: 30px;
+  transition: 200ms transform ease-in-out;
+  border-radius: 100%;
+  box-shadow: 0 0 2px black;
+  img {
+    height: 50px;
+  }
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 3px black;
+  }
+}
+.breadcrumbs {
+  color: $kgrey;
+  margin: 5px 0 0 20px;
+  font-size: 0.9rem;
+  a {
+    color: $kgrey;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
