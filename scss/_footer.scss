@@ -1,82 +1,66 @@
 footer {
-    background-color: $kdarkgrey;
-    color: white;
-    margin: 75px 0 0 0;
-
-    .footer-mail {
-        a {
-            text-decoration: none;
-            color: $kpurple;
-        }
-
-        font-size: 1.15rem;
-        padding: 7px 0 7px 0;
-        text-align: center;
+  background-color: $kdarkgrey;
+  color: white;
+  margin: 75px 0 0 0;
+  .footer-mail {
+    a {
+      text-decoration: none;
+      color: $kpurple;
     }
-
-    .footer-divisor {
-        width: 100%;
-        height: 3px;
-        background-color: $kpurple;
+    font-size: 2rem;
+    padding: 7px 0 7px 0;
+    text-align: center;
+  }
+  .footer-divisor {
+    width: 100%;
+    height: 3px;
+    background-color: $kpurple;
+  }
+  .footer-social {
+    a {
+      img {
+        max-width: 25px;
+        margin: 15px;
+      }
     }
-
-    .footer-social {
-        a {
-            img {
-                max-width: 25px;
-                margin: 15px;
-            }
-        }
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-text {
+    padding: 0 10px 0 10px;
+    b {
+      font-size: 1.25rem;
     }
-
-    .footer-text {
-        padding: 0 10px 0 10px;
-
-
-        b {
-            font-size: 1.25rem;
-        }
-
-        @media (min-width: 992px) {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .footer-phones {
-            padding: 0 0 20px 0;
-
-            @media (min-width: 992px) {
-                padding: 0;
-                width: 40%;
-
-            }
-        }
-
-        .footer-direction {
-            @media (min-width: 992px) {
-                width: 40%;
-
-            }
-        }
+    @media (min-width: 992px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
     }
-
-    .footer-suri {
-        display: flex;
-        flex-direction: row;
-        align-items: end;
-        justify-content: end;
-        padding: 20px 0 20px 0;
-
-        img {
-            max-width: 60px;
-            margin: 0 15px 0 15px;
-        }
+    .footer-phones {
+      padding: 0 0 20px 0;
+      @media (min-width: 992px) {
+        padding: 0;
+        width: 40%;
+      }
     }
+    .footer-direction {
+      @media (min-width: 992px) {
+        width: 40%;
+      }
+    }
+  }
+  .footer-suri {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    img {
+      max-width: 60px;
+      margin: 0 15px 0 15px;
+    }
+  }
 }
