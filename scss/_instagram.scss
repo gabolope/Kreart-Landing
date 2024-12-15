@@ -1,19 +1,17 @@
 .instagram-container {
-  border-top: 5px solid $kred;
+  border-top: 3px solid $kred;
   display: flex;
   flex-direction: column;
-  padding: 0 0.75rem;
+  padding: 3rem 0.75rem;
   @media (min-width: 992px) {
     margin: 0 auto;
-    margin-top: 50px;
-    padding: 0 10px 0 10px;
     max-width: 1200px;
   }
   .instagram-name {
     color: $kpurple;
     font-size: 1.25rem;
     font-weight: 600;
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
     max-width: fit-content;
     text-decoration: none;
     &:hover {
@@ -26,7 +24,7 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 0.75rem;
     // justify-items: center;
-    margin: 1rem auto;
+    margin: 0 auto;
     max-width: 500px;
     width: 100%;
     @media (min-width: 992px) {
@@ -61,22 +59,6 @@
       transform: translate(-50%, -50%);
       transition: opacity 0.3s ease-in-out;
       z-index: 10;
-    }
-  }
-  .post1 {
-    @media (min-width: 992px) {
-    }
-  }
-  .post2 {
-    @media (min-width: 992px) {
-    }
-  }
-  .post3 {
-    @media (min-width: 992px) {
-    }
-  }
-  .post4 {
-    @media (min-width: 992px) {
     }
   }
   .post5,

@@ -1,9 +1,9 @@
 .maps-container {
-  border-top: 5px solid $kred;
+  border-top: 3px solid $kred;
   display: grid;
-  margin: 1.5rem auto;
+  margin: 0 auto;
   max-width: 800px;
-  padding: 0 0.75rem;
+  padding: 3rem 0.75rem;
   width: 100%;
   @media (min-width: 992px) {
     max-width: 1200px;
