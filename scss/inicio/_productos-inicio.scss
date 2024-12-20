@@ -67,14 +67,10 @@
       }
     }
     .empresa {
-      background-image: url("../media/empresa.png");
-      @media (min-width: 992px) {
-        // margin-right: 10px;
-      }
+      background-image: url("../media/inicio/empresa.png");
     }
     .hogar {
-      background-image: url("../media/hogar.png");
-      //   margin-bottom: 50px;
+      background-image: url("../media/inicio/hogar.png");
     }
   }
 }
@@ -94,17 +90,5 @@
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: 0 0 3px black;
-  }
-}
-.breadcrumbs {
-  color: $kgrey;
-  margin: 5px 0 0 20px;
-  font-size: 0.9rem;
-  a {
-    color: $kgrey;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }

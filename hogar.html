@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Somos una empresa especializada en la producción de muebles de alta calidad. Brindamos a nuestros clientes ideas creativas e innovadoras, priorizando las necesidades de su empresa y la comodidad en su hogar."
-    />
+    <meta name="description" content="" />
     <meta name="robots" content="index, follow" />
     <title>Kreart</title>
     <link
@@ -60,28 +57,64 @@
             <div class="navbar-nav">
               <a class="nav-link" href="./index.html">INICIO</a>
               <a class="nav-link" href="./productos.html">PRODUCTOS</a>
-              <a class="nav-link" href="./nosotros.html">SOBRE NOSOTROS</a>
+              <a class="nav-link" href="./sobre-nosotros.html"
+                >SOBRE NOSOTROS</a
+              >
             </div>
           </div>
         </div>
       </nav>
     </header>
-    <div class="breadcrumbs">
-      <a href="./index.html">Inicio</a> /
-      <a href="./productos.html">Productos</a> /
-      <a href="./hogar.html">Hogar</a>
-    </div>
-    <section class="productosHero-container">
-      <div class="hero-image hogar">
-        <h4 class="hero-text">Hogar</h4>
+
+    <section class="hero-container">
+      <div class="breadcrumbs">
+        <a href="./index.html">Inicio</a> /
+        <a href="./productos.html">Productos</a> /
+        <a href="./empresa.html">Hogar</a>
       </div>
-      <hr class="redDivider" />
-      <hr class="purpleDivider" />
-      <div class="section-title">Todo lo que buscas para tu hogar</div>
+      <div class="hero-image">
+        <img
+          srcset="
+            ./media/hogar/hero-xl.png 1280w,
+            ./media/hogar/hero-sm.png  360w
+          "
+          src="./media/hogar/hero-xl.png"
+          alt=""
+        />
+        <h3>Hogar</h3>
+      </div>
     </section>
+
+    <section class="categorias">
+      <h3>Todo lo que buscás para tu hogar</h3>
+      <div class="categorias-container">
+        <div class="categoria hogar primera"><span>COCINAS</span></div>
+        <div class="categoria hogar segunda"><span>LIVING</span></div>
+        <div class="categoria hogar tercera">
+          <span>DORMITORIOS SUITE</span>
+        </div>
+        <div class="categoria hogar cuarta">
+          <span>DORMITORIOS JUVENIL</span>
+        </div>
+        <div class="categoria hogar quinta"><span>BAÑOS</span></div>
+        <div class="categoria hogar sexta">
+          <span>COMEDORES</span>
+        </div>
+        <div class="categoria hogar septima">
+          <span>REVESTIMIENTOS EN INTERIOR</span>
+        </div>
+        <div class="categoria hogar octava">
+          <span>ESCALERAS Y ABERTURAS</span>
+        </div>
+        <div class="categoria hogar novena">
+          <span>EXTERIORES</span>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="footer-header">
-        <div class="footer-mail"><a href="">info@kreart.com.ar</a></div>
+        <div class="footer-mail">info@kreart.com.ar</div>
         <div class="footer-divisor"></div>
         <div class="footer-social">
           <a

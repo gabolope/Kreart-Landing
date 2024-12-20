@@ -1,0 +1,19 @@
+.hero-container {
+  .hero-image {
+    position: relative;
+    h3 {
+      bottom: 0.75rem;
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+      position: absolute;
+      right: 1.25rem;
+      @media (min-width: 576px) {
+        font-size: 2.5rem;
+      }
+      @media (min-width: 992px) {
+        font-size: 3rem;
+      }
+    }
+  }
+}

@@ -39,6 +39,19 @@ select {
   margin: 0;
 }
 
+.breadcrumbs {
+  color: $kgrey;
+  margin: 0.75rem 0 0.75rem 1rem;
+  font-size: 0.9rem;
+  a {
+    color: $kgrey;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .section-title {
   color: $kred;
   font-weight: 600;

@@ -1,0 +1,253 @@
+.nosotros-hero {
+  color: $kdarkgrey;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 3rem 0;
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0 0 3rem 0.75rem;
+    @media (min-width: 768px) {
+      align-items: center;
+      flex-direction: row;
+    }
+    @media (min-width: 992px) {
+      padding: 0 0.75rem 3rem 0.75rem;
+    }
+    h2 {
+      font-size: 2.25rem;
+      margin: 0 auto;
+      max-width: 650px;
+      @media (min-width: 992px) {
+        font-size: 2.5rem;
+      }
+      span {
+        color: $kred;
+      }
+      span:last-of-type {
+        color: $kpurple;
+      }
+    }
+    img {
+      max-width: 500px;
+      object-fit: scale-down;
+      transform: translateX(150px) translateY(-25px);
+      z-index: -1;
+      @media (min-width: 768px) {
+        max-width: 400px;
+        transform: translateX(100px) translateY(0);
+      }
+      @media (min-width: 992px) {
+        transform: translateX(0);
+      }
+    }
+  }
+  h4 {
+    color: $kred;
+    font-size: 1.75rem;
+    margin: 0 auto 2rem auto;
+    max-width: 350px;
+    text-align: center;
+    @media (min-width: 992px) {
+      font-size: 2rem;
+    }
+  }
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 450px;
+    @media (min-width: 992px) {
+      flex-wrap: nowrap;
+      max-width: 800px;
+    }
+    .box {
+      align-items: center;
+      background-color: $kgrey;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      justify-content: center;
+      max-width: 200px;
+      text-align: center;
+      width: 100%;
+      .box-number {
+        font-size: 3rem;
+      }
+      .box-text {
+        font-size: 1.4rem;
+        padding: auto;
+      }
+    }
+  }
+}
+
+.nosotros-contexto {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 0.75rem;
+  .contexto-card {
+    margin: 2rem 0;
+    position: relative;
+    &:last-of-type {
+      margin: 0;
+    }
+    &::before {
+      align-items: center;
+      background-color: rgba(60, 59, 59, 0.5);
+      bottom: 0;
+      display: flex;
+      color: #fff;
+      font-size: 1.5rem;
+      justify-content: end;
+      padding: 1rem 1.5rem 1rem 0;
+      position: absolute;
+      text-align: right;
+      width: 100%;
+      z-index: 1;
+      @media (min-width: 576px) {
+        font-size: 1.75rem;
+        padding: 1.25rem 2rem 1.25rem 0;
+      }
+      @media (min-width: 992px) {
+        font-size: 2rem;
+        padding: 1.75rem 3.5rem 1.75rem 0;
+      }
+    }
+    &.experiencia {
+      &::before {
+        content: "30 años de experiencia";
+      }
+    }
+    &.materiales {
+      &::before {
+        content: "Materiales y accesorios de la más alta calidad";
+      }
+    }
+    &.bocetos {
+      &::before {
+        content: "Previsualización de bocetos 3D";
+      }
+    }
+    &.amoblamiento {
+      &::before {
+        content: "Amoblamiento a medida";
+      }
+    }
+  }
+}
+
+// .nosotrosCarousel-container {
+//   .carousel-inner {
+//     .carousel-item {
+//       height: 500px;
+
+//       img {
+//         width: 500px;
+//       }
+//     }
+//   }
+
+//   .carousel-item,
+//   img {
+//     height: 100% !important;
+//     width: 100;
+//     max-height: 500px;
+//   }
+
+//   .carousel-caption {
+//     background-color: hsla(0, 0%, 0%, 0.25);
+//     position: absolute;
+//     right: 0;
+//     left: 0;
+//     bottom: 0;
+//   }
+
+//   .nosotrosCarousel-text {
+//     text-align: end;
+//     padding: 0 50px;
+//     font-size: 1.5rem;
+//   }
+// }
+
+.nosotros-historia {
+  padding: 3rem 0.75rem;
+
+  .imagenFundacion {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .historia-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+
+    .historia-block {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0 auto 5rem auto;
+      max-width: 500px;
+      width: 100%;
+      @media (min-width: 992px) {
+        max-width: 1000px;
+      }
+      img {
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 100%;
+        @media (min-width: 576px) {
+          max-width: 200px;
+          max-height: 200px;
+        }
+        @media (min-width: 992px) {
+          max-width: 300px;
+          max-height: 300px;
+        }
+      }
+      p {
+        max-width: 500px;
+        @media (min-width: 992px) {
+          font-size: 1.5rem;
+          max-width: 750px;
+        }
+      }
+      &.top {
+        p {
+          text-align: left;
+          span {
+            color: $kred;
+          }
+        }
+      }
+      &.bottom {
+        p {
+          text-align: right;
+          span {
+            color: $kpurple;
+          }
+        }
+      }
+    }
+    .historia-final {
+      font-size: 1.25rem;
+      margin: 0 auto;
+      max-width: 1000px;
+      text-align: center;
+      span {
+        color: $kpurple;
+      }
+      @media (min-width: 992px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
