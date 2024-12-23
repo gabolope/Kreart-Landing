@@ -46,6 +46,9 @@ select {
   a {
     color: $kgrey;
     text-decoration: none;
+    &.active {
+      color: #000000;
+    }
     &:hover {
       text-decoration: underline;
     }

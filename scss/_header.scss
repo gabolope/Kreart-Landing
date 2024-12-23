@@ -79,6 +79,11 @@
               font-size: 1rem;
             }
 
+            &.active {
+              color: #000000;
+              font-weight: 700;
+            }
+
             &:first-of-type {
               margin-top: 0;
               padding-top: 0;

@@ -72,6 +72,9 @@ select {
   color: #838281;
   text-decoration: none;
 }
+.breadcrumbs a.active {
+  color: #000000;
+}
 .breadcrumbs a:hover {
   text-decoration: underline;
 }
@@ -217,6 +220,10 @@ select {
   .header nav .container-fluid .navbar-collapse .navbar-nav .nav-link {
     font-size: 1rem;
   }
+}
+.header nav .container-fluid .navbar-collapse .navbar-nav .nav-link.active {
+  color: #000000;
+  font-weight: 700;
 }
 .header nav .container-fluid .navbar-collapse .navbar-nav .nav-link:first-of-type {
   margin-top: 0;
@@ -1177,6 +1184,7 @@ footer .footer-suri img {
   max-width: 250px;
   padding: 1.25rem;
   text-align: center;
+  text-decoration: none;
   width: 100%;
 }
 .categorias .categorias-container span {
@@ -1268,6 +1276,150 @@ footer .footer-suri img {
   background-color: #a5b2df;
 }
 .productos .productos-container.escritorios .sexto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.puestos .primero {
+  background-color: #da251d;
+}
+.productos .productos-container.puestos .segundo {
+  background-color: #da251d;
+}
+.productos .productos-container.puestos .tercero {
+  background-color: #da251d;
+}
+.productos .productos-container.puestos .cuarto {
+  background-color: #da251d;
+}
+.productos .productos-container.puestos .quinto {
+  background-color: #da251d;
+}
+.productos .productos-container.puestos .sexto {
+  background-color: #da251d;
+}
+.productos .productos-container.recepciones .primero {
+  background-color: #da251d;
+}
+.productos .productos-container.recepciones .segundo {
+  background-color: #da251d;
+}
+.productos .productos-container.recepciones .tercero {
+  background-color: #da251d;
+}
+.productos .productos-container.recepciones .cuarto {
+  background-color: #da251d;
+}
+.productos .productos-container.recepciones .quinto {
+  background-color: #da251d;
+}
+.productos .productos-container.recepciones .sexto {
+  background-color: #da251d;
+}
+.productos .productos-container.salas .primero {
+  background-color: #a5b2df;
+}
+.productos .productos-container.salas .segundo {
+  background-color: #a5b2df;
+}
+.productos .productos-container.salas .tercero {
+  background-color: #a5b2df;
+}
+.productos .productos-container.salas .cuarto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.salas .quinto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.salas .sexto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.revestimientos .primero {
+  background-color: #da251d;
+}
+.productos .productos-container.revestimientos .segundo {
+  background-color: #da251d;
+}
+.productos .productos-container.revestimientos .tercero {
+  background-color: #da251d;
+}
+.productos .productos-container.revestimientos .cuarto {
+  background-color: #da251d;
+}
+.productos .productos-container.revestimientos .quinto {
+  background-color: #da251d;
+}
+.productos .productos-container.revestimientos .sexto {
+  background-color: #da251d;
+}
+.productos .productos-container.cerramientos .primero {
+  background-color: #da251d;
+}
+.productos .productos-container.cerramientos .segundo {
+  background-color: #da251d;
+}
+.productos .productos-container.cerramientos .tercero {
+  background-color: #da251d;
+}
+.productos .productos-container.cerramientos .cuarto {
+  background-color: #da251d;
+}
+.productos .productos-container.cerramientos .quinto {
+  background-color: #da251d;
+}
+.productos .productos-container.cerramientos .sexto {
+  background-color: #da251d;
+}
+.productos .productos-container.bibliotecas .primero {
+  background-color: #da251d;
+}
+.productos .productos-container.bibliotecas .segundo {
+  background-color: #da251d;
+}
+.productos .productos-container.bibliotecas .tercero {
+  background-color: #da251d;
+}
+.productos .productos-container.bibliotecas .cuarto {
+  background-color: #da251d;
+}
+.productos .productos-container.bibliotecas .quinto {
+  background-color: #da251d;
+}
+.productos .productos-container.bibliotecas .sexto {
+  background-color: #da251d;
+}
+.productos .productos-container.comerciales .primero {
+  background-color: #a5b2df;
+}
+.productos .productos-container.comerciales .segundo {
+  background-color: #a5b2df;
+}
+.productos .productos-container.comerciales .tercero {
+  background-color: #a5b2df;
+}
+.productos .productos-container.comerciales .cuarto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.comerciales .quinto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.comerciales .sexto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.sillas .primero {
+  background-color: #a5b2df;
+}
+.productos .productos-container.sillas .segundo {
+  background-color: #a5b2df;
+}
+.productos .productos-container.sillas .tercero {
+  background-color: #a5b2df;
+}
+.productos .productos-container.sillas .cuarto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.sillas .quinto {
+  background-color: #a5b2df;
+}
+.productos .productos-container.sillas .sexto {
   background-color: #a5b2df;
 }
 
