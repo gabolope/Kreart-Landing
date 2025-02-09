@@ -8,7 +8,7 @@
   );
 }
 
-$animationSpeed: 40s; /* Adjusted value */
+$animationSpeed: 20s; /* Adjusted value */
 
 // Animation
 @keyframes scroll {
@@ -16,6 +16,8 @@ $animationSpeed: 40s; /* Adjusted value */
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-275px * 6)); /* Adjusted value */
+    transform: translateX(
+      calc(-200px * 6)
+    ); // El primer término debe ser el width de .slide
   }
 }

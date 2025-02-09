@@ -17,6 +17,9 @@
     @media (min-width: 992px) {
       padding: 0 0.75rem 3rem 0.75rem;
     }
+    @media (min-width: 1200px) {
+      padding: 0 0 3rem 0;
+    }
     h2 {
       font-size: 2.25rem;
       margin: 0 auto;
@@ -77,6 +80,22 @@
       max-width: 200px;
       text-align: center;
       width: 100%;
+      &:nth-child(1),
+      &:nth-child(4) {
+        background-color: $kred;
+      }
+      &:nth-child(2),
+      &:nth-child(3) {
+        background-color: $kpurple;
+      }
+      @media (min-width: 992px) {
+        &:nth-child(3) {
+          background-color: $kred;
+        }
+        &:nth-child(4) {
+          background-color: $kpurple;
+        }
+      }
       .box-number {
         font-size: 3rem;
       }
@@ -91,7 +110,6 @@
 .nosotros-contexto {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 0.75rem;
   .contexto-card {
     margin: 2rem 0;
     position: relative;
@@ -177,28 +195,30 @@
 // }
 
 .nosotros-historia {
+  margin: 0 auto;
+  max-width: 1200px;
   padding: 3rem 0.75rem;
-
+  @media (min-width: 1200px) {
+    padding: 3rem 0;
+  }
   .imagenFundacion {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
   }
-
   .historia-container {
     display: flex;
     flex-direction: column;
     padding: 3rem 0;
-
     .historia-block {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-between;
       margin: 0 auto 5rem auto;
       max-width: 500px;
       width: 100%;
       @media (min-width: 992px) {
-        max-width: 1000px;
+        max-width: 1200px;
       }
       img {
         max-width: 150px;
@@ -217,7 +237,7 @@
         max-width: 500px;
         @media (min-width: 992px) {
           font-size: 1.5rem;
-          max-width: 750px;
+          max-width: 825px;
         }
       }
       &.top {
@@ -240,7 +260,7 @@
     .historia-final {
       font-size: 1.25rem;
       margin: 0 auto;
-      max-width: 1000px;
+      max-width: 1200px;
       text-align: center;
       span {
         color: $kpurple;

@@ -7,15 +7,21 @@
     margin: 0 auto;
     max-width: 1200px;
   }
+  @media (min-width: 1200px) {
+    padding: 3rem 0;
+  }
   .instagram-name {
     color: $kpurple;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin: 0 auto 1rem auto;
     max-width: fit-content;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
+    }
+    @media (min-width: 992px) {
+      font-size: 1.75rem;
     }
   }
   .instagram-posts {

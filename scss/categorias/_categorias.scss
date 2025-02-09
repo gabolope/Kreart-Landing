@@ -19,52 +19,86 @@
     .categoria {
       align-items: center;
       background-color: $kgrey;
+      cursor: pointer;
       display: flex;
       justify-content: center;
       min-height: 250px;
       max-width: 250px;
       padding: 1.25rem;
+      position: relative;
       text-align: center;
       text-decoration: none;
       width: 100%;
+      &::after {
+        background-color: rgba(0, 0, 0, 0); // Transparente por defecto
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: background-color 0.3s ease-in-out;
+        width: 100%;
+        z-index: 0; // Para colocarse por debajo del span (y no oscurecerlo con el efecto)
+      }
+      &:hover::after {
+        background-color: rgba(0, 0, 0, 0.5); // Oscurecimiento en hover
+      }
       &.empresa {
         &.primera {
+          background-image: url("./../../media/placeholder2.png ");
         }
         &.segunda {
+          background-image: url("./../../media/placeholder2.png ");
         }
         &.tercera {
+          background-image: url("./../../media/placeholder2.png ");
         }
         &.cuarta {
+          background-image: url("./../../media/placeholder2.png ");
         }
         &.quinta {
+          background-image: url("./../../media/placeholder2.png ");
         }
         &.sexta {
+          background-image: url("./../../media/placeholder2.png ");
         }
         &.septima {
+          background-image: url("./../../media/placeholder2.png ");
         }
         &.octava {
+          background-image: url("./../../media/placeholder2.png ");
         }
         &.novena {
+          background-image: url("./../../media/placeholder2.png ");
         }
       }
       &.hogar {
         &.primera {
+          background-image: url("./../../media/placeholder3.png ");
         }
         &.segunda {
+          background-image: url("./../../media/placeholder3.png ");
         }
         &.tercera {
+          background-image: url("./../../media/placeholder3.png ");
         }
         &.cuarta {
+          background-image: url("./../../media/placeholder3.png ");
         }
         &.quinta {
+          background-image: url("./../../media/placeholder3.png ");
         }
         &.sexta {
+          background-image: url("./../../media/placeholder3.png ");
         }
         &.septima {
+          background-image: url("./../../media/placeholder3.png ");
         }
         &.octava {
+          background-image: url("./../../media/placeholder3.png ");
         }
         &.novena {
+          background-image: url("./../../media/placeholder3.png ");
         }
       }
     }
@@ -79,6 +113,7 @@
       justify-content: center;
       padding: 1rem;
       width: 100%;
+      z-index: 1; // Para colocarse por debajo del span (y no oscurecerlo con el efecto)
     }
   }
 }
