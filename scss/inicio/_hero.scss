@@ -1,27 +1,48 @@
 .hero-container {
   color: $kdarkgrey;
+
   .hero-image {
     img {
       width: 100%;
     }
+
+    .hero-mobile {
+
+      @media (min-width: 992px) {
+        display: none;
+      }
+    }
+
+    .hero-desktop {
+      display: none;
+
+      @media (min-width: 992px) {
+        display: block;
+      }
+    }
   }
+
   .hero-content {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 0.75rem;
+
     .hero-text {
       font-size: 2.25rem;
       line-height: 125%;
       margin: 3rem auto 0 auto;
       max-width: 850px;
       text-align: center;
+
       span {
         color: $kred;
       }
+
       @media (min-width: 992px) {
         font-size: 2.5rem;
       }
     }
+
     .hero-icons {
       display: flex;
       flex-direction: column;
@@ -29,18 +50,22 @@
       justify-content: space-evenly;
       margin: 3rem auto;
       max-width: 800px;
+
       @media (min-width: 576px) {
         flex-direction: row;
         margin: 5rem auto;
       }
+
       .icon {
         align-items: center;
         display: flex;
         flex-direction: column;
+
         svg {
           margin: 0 auto;
         }
       }
+
       .icon-text {
         color: $kpurple;
         margin: 0.5rem 0 0 0;
@@ -48,44 +73,55 @@
         font-weight: 500;
       }
     }
+
     .hero-phrase {
       display: flex;
       flex-direction: column-reverse;
       gap: 1rem;
       margin: 0 0 50px 0;
+
       @media (min-width: 576px) {
         gap: 0;
       }
+
       @media (min-width: 992px) {
         align-items: start;
         flex-direction: row;
         justify-content: space-between;
       }
+
       .phrase-image {
         max-width: 300px;
         transform: translateX(-60px);
+
         @media (min-width: 576px) {
           max-width: 375px;
         }
+
         @media (min-width: 768px) {
           transform: none;
         }
+
         @media (min-width: 992px) {
           flex-shrink: 10;
           transform: translateX(0);
         }
       }
+
       .phrase-text {
         align-self: end;
         font-size: 1.5rem;
         max-width: 365px;
         text-align: end;
+
         @media (min-width: 576px) {
           max-width: 350px;
         }
+
         @media (min-width: 768px) {
           max-width: 675px;
         }
+
         @media (min-width: 992px) {
           align-self: auto;
           flex-basis: 750px;
@@ -93,9 +129,11 @@
           line-height: 125%;
           max-width: 750px;
         }
+
         span:first-of-type {
           color: $kred;
         }
+
         span:last-of-type {
           color: $kpurple;
         }

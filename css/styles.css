@@ -700,20 +700,24 @@ footer .footer-suri img {
 }
 .clients-container .slider-container .slider {
   background: none;
-  height: 175px; /* Adjusted value */
+  height: 175px;
+  /* Adjusted value */
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 1200px; /* Must be <= to the width of each .slide * the amount of slides / 2 */
+  width: 1200px;
+  /* Must be <= to the width of each .slide * the amount of slides / 2 */
 }
 @media only screen and (min-width: 768px) {
   .clients-container .slider-container .slider::before, .clients-container .slider-container .slider::after {
     background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
-    height: 175px; /* Adjusted value */
+    height: 175px;
+    /* Adjusted value */
     position: absolute;
-    width: 175px; /* Adjusted value */
+    width: 175px;
+    /* Adjusted value */
     z-index: 2;
   }
 }
@@ -733,22 +737,31 @@ footer .footer-suri img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 2400px; /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
+  width: 7800px;
+  /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
 }
 .clients-container .slider-container .slider .slide-track:hover {
   -webkit-animation-play-state: paused;
-          animation-play-state: paused; /* Pause when mouse over the animation */
+          animation-play-state: paused;
+  /* Pause when mouse over the animation */
+}
+.clients-container .slider-container .slider .slide-track .slide-hogar {
+  width: 1600px;
 }
 .clients-container .slider-container .slider .slide {
-  height: 175px; /* Adjusted value */
-  width: 200px; /* Adjusted value, the width of each slide can be > to the width of each image */
+  height: 175px;
+  /* Adjusted value */
+  width: 200px;
+  /* Adjusted value, the width of each slide can be > to the width of each image */
 }
 .clients-container .slider-container .slider .slide img {
   -ms-flex-item-align: center;
       align-self: center;
-  height: 175px; /* Adjusted value */
+  height: 175px;
+  /* Adjusted value */
   margin: 0 auto;
-  width: 175px; /* Adjusted value */
+  width: 175px;
+  /* Adjusted value */
 }
 
 .hero-container {
@@ -756,6 +769,19 @@ footer .footer-suri img {
 }
 .hero-container .hero-image img {
   width: 100%;
+}
+@media (min-width: 992px) {
+  .hero-container .hero-image .hero-mobile {
+    display: none;
+  }
+}
+.hero-container .hero-image .hero-desktop {
+  display: none;
+}
+@media (min-width: 992px) {
+  .hero-container .hero-image .hero-desktop {
+    display: block;
+  }
 }
 .hero-container .hero-content {
   margin: 0 auto;
@@ -1722,22 +1748,22 @@ footer .footer-suri img {
 .productos .productos-container.dormitorios-suite .sexto {
   background-color: #a5b2df;
 }
-.productos .productos-container.dormitorios-juvenil .primero {
+.productos .productos-container.dormitorios-juveniles .primero {
   background-color: #a5b2df;
 }
-.productos .productos-container.dormitorios-juvenil .segundo {
+.productos .productos-container.dormitorios-juveniles .segundo {
   background-color: #a5b2df;
 }
-.productos .productos-container.dormitorios-juvenil .tercero {
+.productos .productos-container.dormitorios-juveniles .tercero {
   background-color: #a5b2df;
 }
-.productos .productos-container.dormitorios-juvenil .cuarto {
+.productos .productos-container.dormitorios-juveniles .cuarto {
   background-color: #a5b2df;
 }
-.productos .productos-container.dormitorios-juvenil .quinto {
+.productos .productos-container.dormitorios-juveniles .quinto {
   background-color: #a5b2df;
 }
-.productos .productos-container.dormitorios-juvenil .sexto {
+.productos .productos-container.dormitorios-juveniles .sexto {
   background-color: #a5b2df;
 }
 .productos .productos-container.baños .primero {
