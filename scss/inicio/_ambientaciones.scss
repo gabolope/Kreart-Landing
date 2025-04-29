@@ -49,7 +49,7 @@
       margin: 2.5rem 0;
       .slider {
         background: none;
-        height: 175px; /* Adjusted value */
+        height: 250px; /* Adjusted value */
         margin: auto;
         overflow: hidden;
         position: relative;
@@ -57,11 +57,11 @@
         &::before,
         &::after {
           @media only screen and (min-width: 768px) {
-            @include white-gradient;
+            /* @include white-gradient; */
             content: "";
-            height: 175px; /* Adjusted value */
+            height: 250px; /* Adjusted value */
             position: absolute;
-            width: 175px; /* Adjusted value */
+            width: 250px; /* Adjusted value */
             z-index: 2;
           }
         }
@@ -78,20 +78,20 @@
           animation: scroll $animationSpeed linear infinite;
           display: flex;
           width: calc(
-            200px * 12
+            250px * 8
           ); /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
           &:hover {
             animation-play-state: paused; /* Pause when mouse over the animation */
           }
         }
         .slide {
-          height: 175px; /* Adjusted value */
-          width: 200px; /* Adjusted value, the width of each slide can be > to the width of each image */
+          height: 250px; /* Adjusted value */
+          width: 300px; /* Adjusted value, the width of each slide can be > to the width of each image */
           img {
             align-self: center;
-            height: 175px; /* Adjusted value */
+            height: 250px; /* Adjusted value */
             margin: 0 auto;
-            width: 175px; /* Adjusted value */
+            width: 300px; /* Adjusted value */
           }
         }
       }

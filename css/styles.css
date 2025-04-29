@@ -130,13 +130,13 @@ select {
   border-bottom: #da251d 10px solid;
 }
 .header nav {
-  padding: 0.25rem 0 0 0;
+  padding: 0 0 0 0;
   width: 100%;
   z-index: 5;
 }
 @media only screen and (min-width: 992px) {
   .header nav {
-    padding: 1.25rem 0 0 0;
+    padding: 0.25rem 0 0 0;
     position: static;
   }
 }
@@ -1265,7 +1265,7 @@ footer .footer-suri img {
 }
 .ambientaciones-container .carousel .slider-container .slider {
   background: none;
-  height: 175px; /* Adjusted value */
+  height: 250px; /* Adjusted value */
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -1273,12 +1273,11 @@ footer .footer-suri img {
 }
 @media only screen and (min-width: 768px) {
   .ambientaciones-container .carousel .slider-container .slider::before, .ambientaciones-container .carousel .slider-container .slider::after {
-    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
-    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    /* @include white-gradient; */
     content: "";
-    height: 175px; /* Adjusted value */
+    height: 250px; /* Adjusted value */
     position: absolute;
-    width: 175px; /* Adjusted value */
+    width: 250px; /* Adjusted value */
     z-index: 2;
   }
 }
@@ -1298,22 +1297,22 @@ footer .footer-suri img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 2400px; /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
+  width: 2000px; /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
 }
 .ambientaciones-container .carousel .slider-container .slider .slide-track:hover {
   -webkit-animation-play-state: paused;
           animation-play-state: paused; /* Pause when mouse over the animation */
 }
 .ambientaciones-container .carousel .slider-container .slider .slide {
-  height: 175px; /* Adjusted value */
-  width: 200px; /* Adjusted value, the width of each slide can be > to the width of each image */
+  height: 250px; /* Adjusted value */
+  width: 300px; /* Adjusted value, the width of each slide can be > to the width of each image */
 }
 .ambientaciones-container .carousel .slider-container .slider .slide img {
   -ms-flex-item-align: center;
       align-self: center;
-  height: 175px; /* Adjusted value */
+  height: 250px; /* Adjusted value */
   margin: 0 auto;
-  width: 175px; /* Adjusted value */
+  width: 300px; /* Adjusted value */
 }
 @media only screen and (max-width: 768px) {
   .ambientaciones-container .carousel {
@@ -1406,59 +1405,82 @@ footer .footer-suri img {
 .categorias .categorias-container .categoria:hover::after {
   background-color: rgba(0, 0, 0, 0.5);
 }
+.categorias .categorias-container .categoria {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .categorias .categorias-container.empresa .categoria:nth-child(1) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/Seccion_escritorios.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/Seccion_escritorios.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(2) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/Seccion_puestos_trabajo.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/Seccion_puestos_trabajo.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(3) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/Seccion_recepciones.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/Seccion_recepciones.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(4) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/Seccion_sala_reuniones.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/Seccion_sala_reuniones.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(5) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/Seccion_revestimientos.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/Seccion_revestimientos.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(6) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/Seccion_cerramientos.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/Seccion_cerramientos.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(7) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/Seccion_biblioteca.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/Seccion_biblioteca.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(8) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/Seccion_comerciales.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/Seccion_comerciales.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(9) {
-  background-image: url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/placeholder2.png ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/placeholder2.png ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(1) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_cocina.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_cocina.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(2) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_living.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_living.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(3) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_dormitorios_suite.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_dormitorios_suite.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(4) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_dormitorio_juvenil.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_dormitorio_juvenil.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(5) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_baño.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_baño.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(6) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_comedores.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_comedores.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(7) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_Revestimientos _interior.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_Revestimientos _interior.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(8) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_escaleras_aberturas.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_escaleras_aberturas.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(9) {
-  background-image: url("./../../media/placeholder3.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/Seccion_exteriores.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/Seccion_exteriores.jpg ");
 }
 .categorias .categorias-container span {
   -webkit-box-align: center;
@@ -1475,6 +1497,7 @@ footer .footer-suri img {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1rem;
+  text-shadow: 1px 1px #000;
   width: 100%;
   z-index: 1;
 }
@@ -2352,7 +2375,6 @@ footer .footer-suri img {
       -ms-flex-align: center;
           align-items: center;
   background-color: #838281;
-  border-radius: 0.5rem;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2403,7 +2425,7 @@ footer .footer-suri img {
   font-size: 3rem;
 }
 .nosotros-hero .boxes .box .box-text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: auto;
 }
 
@@ -2553,5 +2575,16 @@ footer .footer-suri img {
 @media (min-width: 992px) {
   .nosotros-historia .historia-container .historia-final {
     font-size: 1.5rem;
+  }
+}
+
+.nosotros-trabaja {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-bottom: 4rem;
+}
+@media (max-width: 1200px) {
+  .nosotros-trabaja {
+    max-width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
