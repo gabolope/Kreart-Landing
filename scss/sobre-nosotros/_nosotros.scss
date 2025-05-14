@@ -81,10 +81,14 @@
       display: flex;
       flex-direction: column;
       height: 175px;
+      justify-content: center;
       max-width: 175px;
       padding: 0.5rem;
       text-align: center;
       width: 100%;
+      @media (min-width: 576px) {
+        justify-content: start;
+      }
       &:nth-child(1) {
         background-color: $kred;
       }
@@ -135,7 +139,7 @@
       display: flex;
       color: #fff;
       font-size: 1.5rem;
-      justify-content: end;
+      justify-content: flex-end;
       padding: 1rem 1.5rem 1rem 0;
       position: absolute;
       text-align: right;
@@ -187,6 +191,7 @@
     .historia-block {
       display: flex;
       flex-direction: row;
+      font-size: 1.125rem;
       justify-content: space-between;
       margin: 0 auto 5rem auto;
       max-width: 500px;
@@ -282,13 +287,19 @@
     }
     h3 {
       color: $kred;
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 700;
       margin-bottom: 1.5rem;
+      @media (min-width: 576px) {
+        font-size: 3rem;
+      }
     }
     p {
       color: $kpurple;
-      font-size: 1.75rem;
+      font-size: 1.25rem;
+      @media (min-width: 576px) {
+        font-size: 1.75rem;
+      }
     }
   }
 }

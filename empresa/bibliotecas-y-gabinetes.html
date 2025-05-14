@@ -34,24 +34,26 @@
     <header class="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a href="./../index.html">
-            <img
-              src="./../media/logo-doble.png"
-              class="nav-banner"
-              alt="Logo de Kreart"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="banner-wrapper">
+            <a href="./../index.html">
+              <img
+                src="./../media/logo-doble.png"
+                class="nav-banner"
+                alt="Logo de Kreart"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link" href="./../index.html">INICIO</a>
@@ -74,6 +76,14 @@
       </div>
       <div class="hero-image">
         <img
+          srcset="
+            ./../media/empresa/hero-sm.jpg  432w,
+            ./../media/empresa/hero-md.jpg  864w,
+            ./../media/empresa/hero-xl.jpg 2000w
+          "
+          sizes="(max-width: 450px) 432px,
+          (max-width: 800px) 864px,
+          2000px"
           src="./../media/empresa/hero-xl.jpg"
           alt=""
         />

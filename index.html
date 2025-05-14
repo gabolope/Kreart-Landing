@@ -38,24 +38,26 @@
     <header class="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a href="./index.html">
-            <img
-              src="./media/logo-doble.png"
-              class="nav-banner"
-              alt="Logo de Kreart"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="banner-wrapper">
+            <a href="./index.html">
+              <img
+                src="./media/logo-doble.png"
+                class="nav-banner"
+                alt="Logo de Kreart"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" href="./index.html">INICIO</a>
@@ -69,137 +71,123 @@
         </div>
       </nav>
     </header>
-    <section class="hero-container">
-      <div class="hero-image">
-        <img
-          class="hero-mobile"
-          src=" ./media/hero-mobile.jpg"
-          alt="Revestimiento realizado por Kreart"
-        />
-        <img
-          class="hero-desktop"
-          src=" ./media/hero-desktop.jpg"
-          alt="Revestimiento realizado por Kreart"
-        />
-      </div>
-      <div class="hero-content">
-        <h3 class="hero-text">
-          Somos una empresa especializada <br />
-          en la <span>producción de muebles</span> de alta calidad
-        </h3>
-        <div class="hero-icons">
-          <div class="icon">
-            <svg
-              width="65"
-              xmlns="http://www.w3.org/2000/svg"
-              height="65"
-              fill="none"
-            >
-              <g class="fills">
-                <rect
-                  rx="0"
-                  ry="0"
-                  width="65"
-                  height="65"
-                  class="frame-background"
-                />
-              </g>
-              <g style="fill: rgb(0, 0, 0)" class="frame-children">
-                <path
-                  d="M0 0h65v65H0Z"
-                  fill="none"
-                  style="fill: none"
-                  class="fills"
-                />
-                <path
-                  d="M13.542 35.696v10.833L32.5 56.875l18.958-10.346V35.696L32.5 46.042 13.542 35.696ZM32.5 8.125 2.708 24.375 32.5 40.625l24.375-13.298v18.715h5.417V24.375L32.5 8.125Z"
-                  style="fill: rgb(165, 178, 223); fill-opacity: 1"
-                  class="fills"
-                />
-              </g>
-            </svg>
-            <span class="icon-text">Experiencia</span>
-          </div>
-          <div class="icon">
-            <svg
-              width="65"
-              xmlns="http://www.w3.org/2000/svg"
-              height="65"
-              fill="none"
-            >
-              <g class="fills">
-                <rect
-                  rx="0"
-                  ry="0"
-                  width="65"
-                  height="65"
-                  class="frame-background"
-                />
-              </g>
-              <g style="fill: rgb(0, 0, 0)" class="frame-children">
-                <path
-                  d="M51.458 5.417H13.542a5.415 5.415 0 0 0-5.417 5.416V48.75a5.415 5.415 0 0 0 5.417 5.417h10.833l8.125 8.125 8.125-8.125h10.833a5.415 5.415 0 0 0 5.417-5.417V10.833a5.415 5.415 0 0 0-5.417-5.416ZM32.5 14.354a7.317 7.317 0 0 1 7.313 7.313 7.317 7.317 0 0 1-7.313 7.312 7.316 7.316 0 0 1-7.312-7.312 7.316 7.316 0 0 1 7.312-7.313Zm16.25 28.979h-32.5v-2.437c0-5.417 10.833-8.396 16.25-8.396s16.25 2.979 16.25 8.396v2.437Z"
-                  style="fill: rgb(165, 178, 223); fill-opacity: 1"
-                  class="fills"
-                />
-                <path
-                  d="M0 0h65v65H0Z"
-                  fill="none"
-                  style="fill: none"
-                  class="fills"
-                />
-              </g>
-            </svg>
-            <span class="icon-text">Asesoramiento</span>
-          </div>
-          <div class="icon">
-            <svg
-              width="65"
-              xmlns="http://www.w3.org/2000/svg"
-              height="65"
-              fill="none"
-            >
-              <g class="fills">
-                <rect
-                  rx="0"
-                  ry="0"
-                  width="65"
-                  height="65"
-                  class="frame-background"
-                />
-              </g>
-              <g class="frame-children">
-                <g style="fill: rgb(0, 0, 0)">
-                  <path
-                    d="M0 0h65v65H0V0Z"
-                    fill="none"
-                    style="fill: none"
-                    class="fills"
-                  />
-                  <path
-                    d="m32.5 57.823-3.927-3.562C14.625 41.6 5.417 33.245 5.417 23.021c0-8.355 6.54-14.896 14.896-14.896 4.712 0 9.235 2.194 12.187 5.647 2.952-3.453 7.475-5.647 12.188-5.647 8.355 0 14.895 6.541 14.895 14.896 0 10.224-9.208 18.579-23.156 31.24L32.5 57.823Z"
-                    style="fill: rgb(165, 178, 223); fill-opacity: 1"
-                    class="fills"
-                  />
-                </g>
-              </g>
-            </svg>
-            <span class="icon-text">Compromiso</span>
-          </div>
+    <section class="hero-section">
+      <h3 class="hero-text">
+        Somos una empresa especializada <br />
+        en la <span>producción de muebles</span> de alta calidad
+      </h3>
+      <div class="hero-icons">
+        <div class="icon">
+          <svg
+            width="65"
+            xmlns="http://www.w3.org/2000/svg"
+            height="65"
+            fill="none"
+          >
+            <g class="fills">
+              <rect
+                rx="0"
+                ry="0"
+                width="65"
+                height="65"
+                class="frame-background"
+              />
+            </g>
+            <g style="fill: rgb(0, 0, 0)" class="frame-children">
+              <path
+                d="M0 0h65v65H0Z"
+                fill="none"
+                style="fill: none"
+                class="fills"
+              />
+              <path
+                d="M13.542 35.696v10.833L32.5 56.875l18.958-10.346V35.696L32.5 46.042 13.542 35.696ZM32.5 8.125 2.708 24.375 32.5 40.625l24.375-13.298v18.715h5.417V24.375L32.5 8.125Z"
+                style="fill: rgb(165, 178, 223); fill-opacity: 1"
+                class="fills"
+              />
+            </g>
+          </svg>
+          <span class="icon-text">Experiencia</span>
         </div>
-        <div class="hero-phrase">
-          <div class="phrase-image">
-            <img
-              src="./media/inicio/hero-circle.png"
-              alt="Imagen de Mobiliario"
-            />
-          </div>
-          <div class="phrase-text">
-            Brindamos a nuestros clientes
-            <span>ideas creativas e innovadoras</span>, <br />
-            utilizando materiales que sigan los lineamientos de las
-            <span>tendencias del diseño</span>
-          </div>
+        <div class="icon">
+          <svg
+            width="65"
+            xmlns="http://www.w3.org/2000/svg"
+            height="65"
+            fill="none"
+          >
+            <g class="fills">
+              <rect
+                rx="0"
+                ry="0"
+                width="65"
+                height="65"
+                class="frame-background"
+              />
+            </g>
+            <g style="fill: rgb(0, 0, 0)" class="frame-children">
+              <path
+                d="M51.458 5.417H13.542a5.415 5.415 0 0 0-5.417 5.416V48.75a5.415 5.415 0 0 0 5.417 5.417h10.833l8.125 8.125 8.125-8.125h10.833a5.415 5.415 0 0 0 5.417-5.417V10.833a5.415 5.415 0 0 0-5.417-5.416ZM32.5 14.354a7.317 7.317 0 0 1 7.313 7.313 7.317 7.317 0 0 1-7.313 7.312 7.316 7.316 0 0 1-7.312-7.312 7.316 7.316 0 0 1 7.312-7.313Zm16.25 28.979h-32.5v-2.437c0-5.417 10.833-8.396 16.25-8.396s16.25 2.979 16.25 8.396v2.437Z"
+                style="fill: rgb(165, 178, 223); fill-opacity: 1"
+                class="fills"
+              />
+              <path
+                d="M0 0h65v65H0Z"
+                fill="none"
+                style="fill: none"
+                class="fills"
+              />
+            </g>
+          </svg>
+          <span class="icon-text">Asesoramiento</span>
+        </div>
+        <div class="icon">
+          <svg
+            width="65"
+            xmlns="http://www.w3.org/2000/svg"
+            height="65"
+            fill="none"
+          >
+            <g class="fills">
+              <rect
+                rx="0"
+                ry="0"
+                width="65"
+                height="65"
+                class="frame-background"
+              />
+            </g>
+            <g class="frame-children">
+              <g style="fill: rgb(0, 0, 0)">
+                <path
+                  d="M0 0h65v65H0V0Z"
+                  fill="none"
+                  style="fill: none"
+                  class="fills"
+                />
+                <path
+                  d="m32.5 57.823-3.927-3.562C14.625 41.6 5.417 33.245 5.417 23.021c0-8.355 6.54-14.896 14.896-14.896 4.712 0 9.235 2.194 12.187 5.647 2.952-3.453 7.475-5.647 12.188-5.647 8.355 0 14.895 6.541 14.895 14.896 0 10.224-9.208 18.579-23.156 31.24L32.5 57.823Z"
+                  style="fill: rgb(165, 178, 223); fill-opacity: 1"
+                  class="fills"
+                />
+              </g>
+            </g>
+          </svg>
+          <span class="icon-text">Compromiso</span>
+        </div>
+      </div>
+      <div class="hero-phrase">
+        <div class="phrase-image">
+          <img
+            src="./media/inicio/hero-circle.png"
+            alt="Imagen de Mobiliario"
+          />
+        </div>
+        <div class="phrase-text">
+          Brindamos a nuestros clientes
+          <span>ideas creativas e innovadoras</span>, <br />
+          utilizando materiales que sigan los lineamientos de las
+          <span>tendencias del diseño</span>
         </div>
       </div>
     </section>

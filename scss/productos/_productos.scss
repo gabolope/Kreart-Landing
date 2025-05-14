@@ -13,7 +13,7 @@
       background-size: cover;
       background-position: center;
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
       min-height: 250px;
       max-width: 250px;
       position: relative;
@@ -24,7 +24,7 @@
         color: #fff;
         display: flex;
         height: 2rem;
-        justify-content: end;
+        justify-content: flex-end;
         padding: 0.5rem 0.75rem 0.5rem 0;
         position: relative;
         width: 100%;
