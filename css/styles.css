@@ -2607,7 +2607,7 @@ footer .footer-suri img {
 }
 
 .nosotros-equipo {
-  background-image: url("./../../media/sobre-nosotros/trabaja.jpg");
+  background-image: url("./../media/sobre-nosotros/trabaja.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
