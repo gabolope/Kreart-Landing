@@ -76,3 +76,17 @@ select {
   margin: 0 auto;
   max-width: 1600px;
 }
+
+/* animaciones */
+
+.hidden {
+  overflow: hidden;
+}
+
+/* Por si el usuario desactiva animaciones */
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}

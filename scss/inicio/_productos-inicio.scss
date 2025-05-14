@@ -34,10 +34,13 @@
         min-height: 500px;
         max-width: 500px;
       }
-      // @media (min-width: 992px) {
-      //   min-height: 450px;
-      //   max-width: 450px;
-      // }
+      &.hidden {
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      &.show {
+        opacity: 1;
+      }
       &::after {
         content: "";
         position: absolute;

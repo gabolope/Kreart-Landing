@@ -31,9 +31,9 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script defer src="./js/animations.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
-
   <body>
     <header class="header">
       <nav class="navbar navbar-expand-lg">
@@ -77,7 +77,7 @@
         en la <span>producción de muebles</span> de alta calidad
       </h3>
       <div class="hero-icons">
-        <div class="icon">
+        <div class="icon hidden">
           <svg
             width="65"
             xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@
           </svg>
           <span class="icon-text">Experiencia</span>
         </div>
-        <div class="icon">
+        <div class="icon hidden">
           <svg
             width="65"
             xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +141,7 @@
           </svg>
           <span class="icon-text">Asesoramiento</span>
         </div>
-        <div class="icon">
+        <div class="icon hidden">
           <svg
             width="65"
             xmlns="http://www.w3.org/2000/svg"
@@ -194,8 +194,10 @@
     <section class="products-container">
       <h3 class="section-title">Nuestros productos</h3>
       <div class="section-container">
-        <a class="empresa box" href="./empresa.html"><span>Empresa</span></a>
-        <a class="hogar box" href="./hogar.html"><span>Hogar</span></a>
+        <a class="empresa box hidden" href="./empresa.html"
+          ><span>Empresa</span></a
+        >
+        <a class="hogar box hidden" href="./hogar.html"><span>Hogar</span></a>
       </div>
     </section>
     <section class="clients-container">
@@ -605,7 +607,7 @@
       </div>
       <div class="circle"></div>
     </section>
-    <section class="instagram-container">
+    <section class="instagram-container hidden">
       <h3 class="section-title">Seguinos en Instagram</h3>
       <a
         href="https://www.instagram.com/kreartdpm/"
@@ -777,7 +779,7 @@
           <p>Carpintero-Ebanista</p>
           <p>San Martín de los Andes</p>
           <p>Neuquén</p>
-          <p>fkigelman@gmai.com</p>
+          <p>fkigelman@gmail.com</p>
           <p>2944937761</p>
           <p>011 1563000526</p>
         </div>
@@ -800,7 +802,6 @@
               placeholder="Correo electrónico"
               required
             />
-            <input class="form-tel" type="tel" placeholder="Teléfono" />
             <input class="form-subject" type="text" placeholder="Asunto" />
           </div>
           <div class="contact-message">

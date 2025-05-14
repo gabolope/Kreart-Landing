@@ -31,6 +31,21 @@
       align-items: center;
       display: flex;
       flex-direction: column;
+      &.hidden {
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: all 1s;
+      }
+      &.show {
+        transform: translateX(0%);
+        opacity: 1;
+      }
+      &:nth-child(2) {
+        transition-delay: 200ms;
+      }
+      &:nth-child(3) {
+        transition-delay: 400ms;
+      }
       svg {
         margin: 0 auto;
       }

@@ -104,6 +104,18 @@ select {
   max-width: 1600px;
 }
 
+/* animaciones */
+.hidden {
+  overflow: hidden;
+}
+
+/* Por si el usuario desactiva animaciones */
+@media (prefers-reduced-motion) {
+  .hidden {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
 /* Mixin for auto-playing slider */
 /* Adjusted value */
 /* Adjusted value */
@@ -207,7 +219,7 @@ select {
   text-decoration: none;
 }
 .header nav .container-fluid .banner-wrapper > a .nav-banner {
-  max-width: 350px;
+  max-width: 400px;
   width: 100%;
 }
 .header nav .container-fluid .banner-wrapper .navbar-toggler {
@@ -338,7 +350,7 @@ footer .footer-social {
           justify-content: center;
 }
 footer .footer-social a img {
-  max-width: 25px;
+  max-width: 35px;
   margin: 15px;
 }
 footer .footer-text {
@@ -549,8 +561,9 @@ footer .footer-suri img {
   width: 100%;
 }
 .contact form .send {
-  border: none;
   background-color: #da251d;
+  border: none;
+  border-radius: 0.25rem;
   color: white;
   font-size: 1.1rem;
   margin-top: 1rem;
@@ -565,10 +578,10 @@ footer .footer-suri img {
   }
 }
 .contact form .send:hover {
-  background-color: #838281;
+  background-color: #a5b2df;
 }
 .contact form .send:active {
-  background-color: #3c3b3b;
+  background-color: #a5b2df;
   border: 2px solid #838281;
 }
 
@@ -613,6 +626,14 @@ footer .footer-suri img {
   .instagram-container {
     padding: 3rem 0;
   }
+}
+.instagram-container.hidden {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.instagram-container.show {
+  opacity: 1;
 }
 .instagram-container .instagram-name {
   color: #a5b2df;
@@ -844,6 +865,26 @@ footer .footer-suri img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+.hero-section .hero-icons .icon.hidden {
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.hero-section .hero-icons .icon.show {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}
+.hero-section .hero-icons .icon:nth-child(2) {
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
+}
+.hero-section .hero-icons .icon:nth-child(3) {
+  -webkit-transition-delay: 400ms;
+          transition-delay: 400ms;
 }
 .hero-section .hero-icons .icon svg {
   margin: 0 auto;
@@ -1132,6 +1173,14 @@ footer .footer-suri img {
     max-width: 500px;
   }
 }
+.products-container .section-container .box.hidden {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.products-container .section-container .box.show {
+  opacity: 1;
+}
 .products-container .section-container .box::after {
   content: "";
   position: absolute;
@@ -1329,6 +1378,18 @@ footer .footer-suri img {
   margin: 0 auto;
   position: relative;
 }
+.hero-container .hero-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.hero-container .hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .hero-container .hero-image h3 {
   bottom: 0.75rem;
   color: #fff;
@@ -1336,6 +1397,7 @@ footer .footer-suri img {
   font-weight: 700;
   position: absolute;
   right: 1.25rem;
+  z-index: 100;
 }
 @media (min-width: 576px) {
   .hero-container .hero-image h3 {
@@ -1563,6 +1625,24 @@ footer .footer-suri img {
   height: 100%;
   background-color: rgba(60, 59, 59, 0.5);
   z-index: -1;
+}
+.productos .productos-container .producto .producto-whatsapp {
+  bottom: 2.5px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  right: 2.5px;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+.productos .productos-container .producto .producto-whatsapp:hover {
+  text-decoration: underline;
+}
+.productos .productos-container .producto .producto-whatsapp img {
+  max-width: 25px;
 }
 .productos .productos-container.escritorios .producto:nth-child(1) {
   background-image: url("./../media/empresa/escritorios/ees1.jpg");
@@ -2405,14 +2485,30 @@ footer .footer-suri img {
             justify-content: start;
   }
 }
+.nosotros-hero .boxes .box.hidden {
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.nosotros-hero .boxes .box.show {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}
 .nosotros-hero .boxes .box:nth-child(1) {
   background-color: #da251d;
 }
 .nosotros-hero .boxes .box:nth-child(2) {
   background-color: #a5b2df;
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
 }
 .nosotros-hero .boxes .box:nth-child(3) {
   background-color: #da251d;
+  -webkit-transition-delay: 400ms;
+          transition-delay: 400ms;
 }
 @media (min-width: 576px) {
   .nosotros-hero .boxes .box:nth-child(3) {
@@ -2426,6 +2522,8 @@ footer .footer-suri img {
 }
 .nosotros-hero .boxes .box:nth-child(4) {
   background-color: #a5b2df;
+  -webkit-transition-delay: 600ms;
+          transition-delay: 600ms;
 }
 @media (min-width: 576px) {
   .nosotros-hero .boxes .box:nth-child(4) {
@@ -2453,7 +2551,15 @@ footer .footer-suri img {
   margin: 2rem 0;
   position: relative;
 }
-.nosotros-contexto .contexto-card:last-of-type {
+.nosotros-contexto .contexto-card.hidden {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.nosotros-contexto .contexto-card.show {
+  opacity: 1;
+}
+.nosotros-contexto .contexto-card:nth-child(4) {
   margin: 0;
 }
 .nosotros-contexto .contexto-card::before {
@@ -2542,6 +2648,14 @@ footer .footer-suri img {
     max-width: 1200px;
   }
 }
+.nosotros-historia .historia-container .historia-block.hidden {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.nosotros-historia .historia-container .historia-block.show {
+  opacity: 1;
+}
 .nosotros-historia .historia-container .historia-block img {
   max-width: 150px;
   max-height: 150px;
@@ -2586,13 +2700,21 @@ footer .footer-suri img {
   max-width: 1200px;
   text-align: center;
 }
-.nosotros-historia .historia-container .historia-final span {
-  color: #a5b2df;
-}
 @media (min-width: 992px) {
   .nosotros-historia .historia-container .historia-final {
     font-size: 1.5rem;
   }
+}
+.nosotros-historia .historia-container .historia-final.hidden {
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.nosotros-historia .historia-container .historia-final.show {
+  opacity: 1;
+}
+.nosotros-historia .historia-container .historia-final span {
+  color: #a5b2df;
 }
 
 .nosotros-equipo {

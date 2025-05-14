@@ -10,6 +10,13 @@
   @media (min-width: 1200px) {
     padding: 3rem 0;
   }
+  &.hidden {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  &.show {
+    opacity: 1;
+  }
   .instagram-name {
     color: $kpurple;
     font-size: 1.5rem;

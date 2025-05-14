@@ -89,14 +89,25 @@
       @media (min-width: 576px) {
         justify-content: start;
       }
+      &.hidden {
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: all 1s;
+      }
+      &.show {
+        transform: translateX(0%);
+        opacity: 1;
+      }
       &:nth-child(1) {
         background-color: $kred;
       }
       &:nth-child(2) {
         background-color: $kpurple;
+        transition-delay: 200ms;
       }
       &:nth-child(3) {
         background-color: $kred;
+        transition-delay: 400ms;
         @media (min-width: 576px) {
           background-color: $kpurple;
         }
@@ -106,6 +117,7 @@
       }
       &:nth-child(4) {
         background-color: $kpurple;
+        transition-delay: 600ms;
         @media (min-width: 576px) {
           background-color: $kred;
         }
@@ -129,7 +141,14 @@
   .contexto-card {
     margin: 2rem 0;
     position: relative;
-    &:last-of-type {
+    &.hidden {
+      opacity: 0;
+      transition: opacity 1s;
+    }
+    &.show {
+      opacity: 1;
+    }
+    &:nth-child(4) {
       margin: 0;
     }
     &::before {
@@ -199,6 +218,13 @@
       @media (min-width: 992px) {
         max-width: 1200px;
       }
+      &.hidden {
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      &.show {
+        opacity: 1;
+      }
       img {
         max-width: 150px;
         max-height: 150px;
@@ -241,11 +267,18 @@
       margin: 0 auto;
       max-width: 1200px;
       text-align: center;
-      span {
-        color: $kpurple;
-      }
       @media (min-width: 992px) {
         font-size: 1.5rem;
+      }
+      &.hidden {
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      &.show {
+        opacity: 1;
+      }
+      span {
+        color: $kpurple;
       }
     }
   }

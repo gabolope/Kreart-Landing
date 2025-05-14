@@ -2,6 +2,18 @@
   .hero-image {
     margin: 0 auto;
     position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
     h3 {
       bottom: 0.75rem;
       color: #fff;
@@ -9,6 +21,7 @@
       font-weight: 700;
       position: absolute;
       right: 1.25rem;
+      z-index: 100;
       @media (min-width: 576px) {
         font-size: 2.5rem;
       }
