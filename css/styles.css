@@ -1438,76 +1438,76 @@ footer .footer-suri img {
   background-repeat: no-repeat;
 }
 .categorias .categorias-container.empresa .categoria:nth-child(1) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/seccion_escritorios.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/seccion_escritorios.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/empresa/seccion_escritorios.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/empresa/seccion_escritorios.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(2) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/seccion_puestos_trabajo.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/seccion_puestos_trabajo.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/empresa/seccion_puestos_trabajo.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/empresa/seccion_puestos_trabajo.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(3) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/seccion_recepciones.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/seccion_recepciones.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/empresa/seccion_recepciones.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/empresa/seccion_recepciones.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(4) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/seccion_sala_reuniones.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/seccion_sala_reuniones.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/empresa/seccion_sala_reuniones.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/empresa/seccion_sala_reuniones.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(5) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/seccion_revestimientos.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/seccion_revestimientos.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/empresa/seccion_revestimientos.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/empresa/seccion_revestimientos.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(6) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/seccion_cerramientos.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/seccion_cerramientos.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/empresa/seccion_cerramientos.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/empresa/seccion_cerramientos.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(7) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/seccion_biblioteca.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/seccion_biblioteca.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/empresa/seccion_biblioteca.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/empresa/seccion_biblioteca.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(8) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/empresa/seccion_comerciales.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/empresa/seccion_comerciales.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/empresa/seccion_comerciales.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/empresa/seccion_comerciales.jpg ");
 }
 .categorias .categorias-container.empresa .categoria:nth-child(9) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/placeholder2.png ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/placeholder2.png ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/placeholder2.png ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/placeholder2.png ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(1) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_cocina.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_cocina.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_cocina.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_cocina.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(2) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_living.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_living.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_living.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_living.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(3) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_dormitorios_suite.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_dormitorios_suite.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_dormitorios_suite.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_dormitorios_suite.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(4) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_dormitorio_juvenil.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_dormitorio_juvenil.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_dormitorio_juvenil.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_dormitorio_juvenil.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(5) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_baño.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_baño.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_baño.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_baño.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(6) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_comedores.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_comedores.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_comedores.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_comedores.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(7) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_Revestimientos _interior.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_Revestimientos _interior.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_Revestimientos _interior.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_Revestimientos _interior.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(8) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_escaleras_aberturas.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_escaleras_aberturas.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_escaleras_aberturas.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_escaleras_aberturas.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(9) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../../media/hogar/seccion_exteriores.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../../media/hogar/seccion_exteriores.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_exteriores.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_exteriores.jpg ");
 }
 .categorias .categorias-container span {
   -webkit-box-align: center;
@@ -1587,229 +1587,229 @@ footer .footer-suri img {
   z-index: -1;
 }
 .productos .productos-container.escritorios .producto:nth-child(1) {
-  background-image: url("./../../media/empresa/escritorios/ees1.jpg");
+  background-image: url("./../media/empresa/escritorios/ees1.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(2) {
-  background-image: url("./../../media/empresa/escritorios/ees2.jpg");
+  background-image: url("./../media/empresa/escritorios/ees2.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(3) {
-  background-image: url("./../../media/empresa/escritorios/ees3.jpg");
+  background-image: url("./../media/empresa/escritorios/ees3.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(4) {
-  background-image: url("./../../media/empresa/escritorios/ees4.jpg");
+  background-image: url("./../media/empresa/escritorios/ees4.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(5) {
-  background-image: url("./../../media/empresa/escritorios/ees5.jpg");
+  background-image: url("./../media/empresa/escritorios/ees5.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(6) {
-  background-image: url("./../../media/empresa/escritorios/ees6.jpg");
+  background-image: url("./../media/empresa/escritorios/ees6.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(7) {
-  background-image: url("./../../media/empresa/escritorios/ees7.jpg");
+  background-image: url("./../media/empresa/escritorios/ees7.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(8) {
-  background-image: url("./../../media/empresa/escritorios/ees8.jpg");
+  background-image: url("./../media/empresa/escritorios/ees8.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(9) {
-  background-image: url("./../../media/empresa/escritorios/ees9.jpg");
+  background-image: url("./../media/empresa/escritorios/ees9.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(10) {
-  background-image: url("./../../media/empresa/escritorios/ees10.jpg");
+  background-image: url("./../media/empresa/escritorios/ees10.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(11) {
-  background-image: url("./../../media/empresa/escritorios/ees11.jpg");
+  background-image: url("./../media/empresa/escritorios/ees11.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(12) {
-  background-image: url("./../../media/empresa/escritorios/ees12.jpg");
+  background-image: url("./../media/empresa/escritorios/ees12.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(13) {
-  background-image: url("./../../media/empresa/escritorios/ees13.jpg");
+  background-image: url("./../media/empresa/escritorios/ees13.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(14) {
-  background-image: url("./../../media/empresa/escritorios/ees14.jpg");
+  background-image: url("./../media/empresa/escritorios/ees14.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(15) {
-  background-image: url("./../../media/empresa/escritorios/ees15.jpg");
+  background-image: url("./../media/empresa/escritorios/ees15.jpg");
 }
 .productos .productos-container.escritorios .producto:nth-child(16) {
-  background-image: url("./../../media/empresa/escritorios/ees16.jpg");
+  background-image: url("./../media/empresa/escritorios/ees16.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(1) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept1.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept1.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(2) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept2.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept2.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(3) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept3.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept3.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(4) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept4.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept4.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(5) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept5.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept5.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(6) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept6.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept6.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(7) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept7.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept7.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(8) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept8.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept8.jpg");
 }
 .productos .productos-container.puestos .producto:nth-child(9) {
-  background-image: url("./../../media/empresa/puestos-de-trabajo/ept9.jpg");
+  background-image: url("./../media/empresa/puestos-de-trabajo/ept9.jpg");
 }
 .productos .productos-container.recepciones .producto:nth-child(1) {
-  background-image: url("./../../media/empresa/recepciones/erc1.jpg");
+  background-image: url("./../media/empresa/recepciones/erc1.jpg");
 }
 .productos .productos-container.recepciones .producto:nth-child(2) {
-  background-image: url("./../../media/empresa/recepciones/erc2.jpg");
+  background-image: url("./../media/empresa/recepciones/erc2.jpg");
 }
 .productos .productos-container.recepciones .producto:nth-child(3) {
-  background-image: url("./../../media/empresa/recepciones/erc3.jpg");
+  background-image: url("./../media/empresa/recepciones/erc3.jpg");
 }
 .productos .productos-container.recepciones .producto:nth-child(4) {
-  background-image: url("./../../media/empresa/recepciones/erc4.jpg");
+  background-image: url("./../media/empresa/recepciones/erc4.jpg");
 }
 .productos .productos-container.recepciones .producto:nth-child(5) {
-  background-image: url("./../../media/empresa/recepciones/erc5.jpg");
+  background-image: url("./../media/empresa/recepciones/erc5.jpg");
 }
 .productos .productos-container.recepciones .producto:nth-child(6) {
-  background-image: url("./../../media/empresa/recepciones/erc6.jpg");
+  background-image: url("./../media/empresa/recepciones/erc6.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(1) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR1.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR1.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(2) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR2.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR2.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(3) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR3.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR3.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(4) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR4.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR4.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(5) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR5.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR5.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(6) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR6.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR6.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(7) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR7.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR7.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(8) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR8.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR8.jpg");
 }
 .productos .productos-container.salas .producto:nth-child(9) {
-  background-image: url("./../../media/empresa/salas-de-reuniones/ESR9.jpg");
+  background-image: url("./../media/empresa/salas-de-reuniones/ESR9.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(1) {
-  background-image: url("./../../media/empresa/revestimientos/ers1.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers1.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(2) {
-  background-image: url("./../../media/empresa/revestimientos/ers2.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers2.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(3) {
-  background-image: url("./../../media/empresa/revestimientos/ers3.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers3.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(4) {
-  background-image: url("./../../media/empresa/revestimientos/ers4.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers4.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(5) {
-  background-image: url("./../../media/empresa/revestimientos/ers5.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers5.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(6) {
-  background-image: url("./../../media/empresa/revestimientos/ers6.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers6.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(7) {
-  background-image: url("./../../media/empresa/revestimientos/ers7.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers7.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(8) {
-  background-image: url("./../../media/empresa/revestimientos/ers8.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers8.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(9) {
-  background-image: url("./../../media/empresa/revestimientos/ers9.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers9.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(10) {
-  background-image: url("./../../media/empresa/revestimientos/ers10.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers10.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(11) {
-  background-image: url("./../../media/empresa/revestimientos/ers11.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers11.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(12) {
-  background-image: url("./../../media/empresa/revestimientos/ers12.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers12.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(13) {
-  background-image: url("./../../media/empresa/revestimientos/ers13.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers13.jpg");
 }
 .productos .productos-container.revestimientos .producto:nth-child(14) {
-  background-image: url("./../../media/empresa/revestimientos/ers14.jpg");
+  background-image: url("./../media/empresa/revestimientos/ers14.jpg");
 }
 .productos .productos-container.cerramientos .producto:nth-child(1) {
-  background-image: url("./../../media/empresa/cerramientos-para-oficinas/eco1.jpg");
+  background-image: url("./../media/empresa/cerramientos-para-oficinas/eco1.jpg");
 }
 .productos .productos-container.cerramientos .producto:nth-child(2) {
-  background-image: url("./../../media/empresa/cerramientos-para-oficinas/eco2.jpg");
+  background-image: url("./../media/empresa/cerramientos-para-oficinas/eco2.jpg");
 }
 .productos .productos-container.cerramientos .producto:nth-child(3) {
-  background-image: url("./../../media/empresa/cerramientos-para-oficinas/eco3.jpg");
+  background-image: url("./../media/empresa/cerramientos-para-oficinas/eco3.jpg");
 }
 .productos .productos-container.cerramientos .producto:nth-child(4) {
-  background-image: url("./../../media/empresa/cerramientos-para-oficinas/eco4.jpg");
+  background-image: url("./../media/empresa/cerramientos-para-oficinas/eco4.jpg");
 }
 .productos .productos-container.cerramientos .producto:nth-child(5) {
-  background-image: url("./../../media/empresa/cerramientos-para-oficinas/eco5.jpg");
+  background-image: url("./../media/empresa/cerramientos-para-oficinas/eco5.jpg");
 }
 .productos .productos-container.cerramientos .producto:nth-child(6) {
-  background-image: url("./../../media/empresa/cerramientos-para-oficinas/eco6.jpg");
+  background-image: url("./../media/empresa/cerramientos-para-oficinas/eco6.jpg");
 }
 .productos .productos-container.bibliotecas .producto:nth-child(1) {
-  background-image: url("./../../media/empresa/bibliotecas-y-gabinetes/ebg1.jpg");
+  background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg1.png");
 }
 .productos .productos-container.bibliotecas .producto:nth-child(2) {
-  background-image: url("./../../media/empresa/bibliotecas-y-gabinetes/ebg2.jpg");
+  background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg2.jpg");
 }
 .productos .productos-container.bibliotecas .producto:nth-child(3) {
-  background-image: url("./../../media/empresa/bibliotecas-y-gabinetes/ebg3.jpg");
+  background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg3.jpg");
 }
 .productos .productos-container.bibliotecas .producto:nth-child(4) {
-  background-image: url("./../../media/empresa/bibliotecas-y-gabinetes/ebg4.jpg");
+  background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg4.jpg");
 }
 .productos .productos-container.bibliotecas .producto:nth-child(5) {
-  background-image: url("./../../media/empresa/bibliotecas-y-gabinetes/ebg5.jpg");
+  background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg5.jpg");
 }
 .productos .productos-container.bibliotecas .producto:nth-child(6) {
-  background-image: url("./../../media/empresa/bibliotecas-y-gabinetes/ebg6.jpg");
+  background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg6.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(1) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb1.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb1.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(2) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb2.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb2.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(3) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb3.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb3.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(4) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb4.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb4.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(5) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb5.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb5.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(6) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb6.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb6.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(7) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb7.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb7.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(8) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb8.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb8.jpg");
 }
 .productos .productos-container.comerciales .producto:nth-child(9) {
-  background-image: url("./../../media/empresa/comerciales-y-obras/ecb9.jpg");
+  background-image: url("./../media/empresa/comerciales-y-obras/ecb9.jpg");
 }
 .productos .productos-container.sillas .producto:nth-child(1) {
   background-color: #a5b2df;
@@ -1830,445 +1830,445 @@ footer .footer-suri img {
   background-color: #a5b2df;
 }
 .productos .productos-container.cocinas .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/cocinas/hc1.jpg");
+  background-image: url("./../media/hogar/cocinas/hc1.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/cocinas/hc2.jpg");
+  background-image: url("./../media/hogar/cocinas/hc2.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/cocinas/hc3.jpg");
+  background-image: url("./../media/hogar/cocinas/hc3.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/cocinas/hc4.jpg");
+  background-image: url("./../media/hogar/cocinas/hc4.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/cocinas/hc5.jpg");
+  background-image: url("./../media/hogar/cocinas/hc5.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/cocinas/hc6.jpg");
+  background-image: url("./../media/hogar/cocinas/hc6.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(7) {
-  background-image: url("./../../media/hogar/cocinas/hc7.jpg");
+  background-image: url("./../media/hogar/cocinas/hc7.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(8) {
-  background-image: url("./../../media/hogar/cocinas/hc8.jpg");
+  background-image: url("./../media/hogar/cocinas/hc8.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(9) {
-  background-image: url("./../../media/hogar/cocinas/hc9.jpg");
+  background-image: url("./../media/hogar/cocinas/hc9.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(10) {
-  background-image: url("./../../media/hogar/cocinas/hc10.jpg");
+  background-image: url("./../media/hogar/cocinas/hc10.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(11) {
-  background-image: url("./../../media/hogar/cocinas/hc11.jpg");
+  background-image: url("./../media/hogar/cocinas/hc11.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(12) {
-  background-image: url("./../../media/hogar/cocinas/hc12.jpg");
+  background-image: url("./../media/hogar/cocinas/hc12.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(13) {
-  background-image: url("./../../media/hogar/cocinas/hc13.jpg");
+  background-image: url("./../media/hogar/cocinas/hc13.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(14) {
-  background-image: url("./../../media/hogar/cocinas/hc14.jpg");
+  background-image: url("./../media/hogar/cocinas/hc14.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(15) {
-  background-image: url("./../../media/hogar/cocinas/hc15.jpg");
+  background-image: url("./../media/hogar/cocinas/hc15.jpg");
 }
 .productos .productos-container.cocinas .producto:nth-child(16) {
-  background-image: url("./../../media/hogar/cocinas/hc16.jpg");
+  background-image: url("./../media/hogar/cocinas/hc16.jpg");
 }
 .productos .productos-container.living .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/living/hl1.jpg");
+  background-image: url("./../media/hogar/living/hl1.jpg");
 }
 .productos .productos-container.living .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/living/hl2.jpg");
+  background-image: url("./../media/hogar/living/hl2.jpg");
 }
 .productos .productos-container.living .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/living/hl3.jpg");
+  background-image: url("./../media/hogar/living/hl3.jpg");
 }
 .productos .productos-container.living .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/living/hl4.jpg");
+  background-image: url("./../media/hogar/living/hl4.jpg");
 }
 .productos .productos-container.living .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/living/hl5.jpg");
+  background-image: url("./../media/hogar/living/hl5.jpg");
 }
 .productos .productos-container.living .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/living/hl6.jpg");
+  background-image: url("./../media/hogar/living/hl6.jpg");
 }
 .productos .productos-container.living .producto:nth-child(7) {
-  background-image: url("./../../media/hogar/living/hl7.jpg");
+  background-image: url("./../media/hogar/living/hl7.jpg");
 }
 .productos .productos-container.living .producto:nth-child(8) {
-  background-image: url("./../../media/hogar/living/hl8.jpg");
+  background-image: url("./../media/hogar/living/hl8.jpg");
 }
 .productos .productos-container.living .producto:nth-child(9) {
-  background-image: url("./../../media/hogar/living/hl9.jpg");
+  background-image: url("./../media/hogar/living/hl9.jpg");
 }
 .productos .productos-container.living .producto:nth-child(10) {
-  background-image: url("./../../media/hogar/living/hl10.jpg");
+  background-image: url("./../media/hogar/living/hl10.jpg");
 }
 .productos .productos-container.living .producto:nth-child(11) {
-  background-image: url("./../../media/hogar/living/hl11.jpg");
+  background-image: url("./../media/hogar/living/hl11.jpg");
 }
 .productos .productos-container.living .producto:nth-child(12) {
-  background-image: url("./../../media/hogar/living/hl12.jpg");
+  background-image: url("./../media/hogar/living/hl12.jpg");
 }
 .productos .productos-container.living .producto:nth-child(13) {
-  background-image: url("./../../media/hogar/living/hl13.jpg");
+  background-image: url("./../media/hogar/living/hl13.jpg");
 }
 .productos .productos-container.living .producto:nth-child(14) {
-  background-image: url("./../../media/hogar/living/hl14.jpg");
+  background-image: url("./../media/hogar/living/hl14.jpg");
 }
 .productos .productos-container.living .producto:nth-child(15) {
-  background-image: url("./../../media/hogar/living/hl15.jpg");
+  background-image: url("./../media/hogar/living/hl15.jpg");
 }
 .productos .productos-container.living .producto:nth-child(16) {
-  background-image: url("./../../media/hogar/living/hl16.jpg");
+  background-image: url("./../media/hogar/living/hl16.jpg");
 }
 .productos .productos-container.living .producto:nth-child(17) {
-  background-image: url("./../../media/hogar/living/hl17.jpg");
+  background-image: url("./../media/hogar/living/hl17.jpg");
 }
 .productos .productos-container.living .producto:nth-child(18) {
-  background-image: url("./../../media/hogar/living/hl18.jpg");
+  background-image: url("./../media/hogar/living/hl18.jpg");
 }
 .productos .productos-container.living .producto:nth-child(19) {
-  background-image: url("./../../media/hogar/living/hl19.jpg");
+  background-image: url("./../media/hogar/living/hl19.jpg");
 }
 .productos .productos-container.living .producto:nth-child(20) {
-  background-image: url("./../../media/hogar/living/hl20.jpg");
+  background-image: url("./../media/hogar/living/hl20.jpg");
 }
 .productos .productos-container.living .producto:nth-child(21) {
-  background-image: url("./../../media/hogar/living/hl21.jpg");
+  background-image: url("./../media/hogar/living/hl21.jpg");
 }
 .productos .productos-container.living .producto:nth-child(22) {
-  background-image: url("./../../media/hogar/living/hl22.jpg");
+  background-image: url("./../media/hogar/living/hl22.jpg");
 }
 .productos .productos-container.living .producto:nth-child(23) {
-  background-image: url("./../../media/hogar/living/hl23.jpg");
+  background-image: url("./../media/hogar/living/hl23.jpg");
 }
 .productos .productos-container.living .producto:nth-child(24) {
-  background-image: url("./../../media/hogar/living/hl24.jpg");
+  background-image: url("./../media/hogar/living/hl24.jpg");
 }
 .productos .productos-container.living .producto:nth-child(25) {
-  background-image: url("./../../media/hogar/living/hl25.jpg");
+  background-image: url("./../media/hogar/living/hl25.jpg");
 }
 .productos .productos-container.living .producto:nth-child(26) {
-  background-image: url("./../../media/hogar/living/hl26.jpg");
+  background-image: url("./../media/hogar/living/hl26.jpg");
 }
 .productos .productos-container.living .producto:nth-child(27) {
-  background-image: url("./../../media/hogar/living/hl27.jpg");
+  background-image: url("./../media/hogar/living/hl27.jpg");
 }
 .productos .productos-container.living .producto:nth-child(28) {
-  background-image: url("./../../media/hogar/living/hl28.jpg");
+  background-image: url("./../media/hogar/living/hl28.jpg");
 }
 .productos .productos-container.living .producto:nth-child(29) {
-  background-image: url("./../../media/hogar/living/hl29.jpg");
+  background-image: url("./../media/hogar/living/hl29.jpg");
 }
 .productos .productos-container.living .producto:nth-child(30) {
-  background-image: url("./../../media/hogar/living/hl30.jpg");
+  background-image: url("./../media/hogar/living/hl30.jpg");
 }
 .productos .productos-container.living .producto:nth-child(31) {
-  background-image: url("./../../media/hogar/living/hl31.jpg");
+  background-image: url("./../media/hogar/living/hl31.jpg");
 }
 .productos .productos-container.living .producto:nth-child(32) {
-  background-image: url("./../../media/hogar/living/hl32.jpg");
+  background-image: url("./../media/hogar/living/hl32.jpg");
 }
 .productos .productos-container.living .producto:nth-child(33) {
-  background-image: url("./../../media/hogar/living/hl33.jpg");
+  background-image: url("./../media/hogar/living/hl33.jpg");
 }
 .productos .productos-container.living .producto:nth-child(34) {
-  background-image: url("./../../media/hogar/living/hl34.jpg");
+  background-image: url("./../media/hogar/living/hl34.jpg");
 }
 .productos .productos-container.living .producto:nth-child(35) {
-  background-image: url("./../../media/hogar/living/hl35.jpg");
+  background-image: url("./../media/hogar/living/hl35.jpg");
 }
 .productos .productos-container.living .producto:nth-child(36) {
-  background-image: url("./../../media/hogar/living/hl36.jpg");
+  background-image: url("./../media/hogar/living/hl36.jpg");
 }
 .productos .productos-container.living .producto:nth-child(37) {
-  background-image: url("./../../media/hogar/living/hl37.jpg");
+  background-image: url("./../media/hogar/living/hl37.jpg");
 }
 .productos .productos-container.living .producto:nth-child(38) {
-  background-image: url("./../../media/hogar/living/hl38.jpg");
+  background-image: url("./../media/hogar/living/hl38.jpg");
 }
 .productos .productos-container.living .producto:nth-child(39) {
-  background-image: url("./../../media/hogar/living/hl39.jpg");
+  background-image: url("./../media/hogar/living/hl39.jpg");
 }
 .productos .productos-container.living .producto:nth-child(40) {
-  background-image: url("./../../media/hogar/living/hl40.jpg");
+  background-image: url("./../media/hogar/living/hl40.jpg");
 }
 .productos .productos-container.living .producto:nth-child(41) {
-  background-image: url("./../../media/hogar/living/hl41.jpg");
+  background-image: url("./../media/hogar/living/hl41.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds1.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds1.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds2.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds2.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds3.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds3.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds4.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds4.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds5.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds5.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds6.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds6.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(7) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds7.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds7.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(8) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds8.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds8.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(9) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds9.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds9.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(10) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds10.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds10.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(11) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds11.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds11.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(12) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds12.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds12.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(13) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds13.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds13.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(14) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds14.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds14.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(15) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds15.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds15.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(16) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds16.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds16.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(17) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds17.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds17.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(18) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds18.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds18.jpg");
 }
 .productos .productos-container.dormitorios-suite .producto:nth-child(19) {
-  background-image: url("./../../media/hogar/dormitorios-suite/hds19.jpg");
+  background-image: url("./../media/hogar/dormitorios-suite/hds19.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj1.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj1.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj2.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj2.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj3.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj3.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj4.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj4.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj5.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj5.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj6.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj6.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(7) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj7.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj7.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(8) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj8.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj8.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(9) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj9.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj9.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(10) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj10.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj10.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(11) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj11.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj11.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(12) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj12.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj12.jpg");
 }
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(13) {
-  background-image: url("./../../media/hogar/dormitorios-juveniles/hdj13.jpg");
+  background-image: url("./../media/hogar/dormitorios-juveniles/hdj13.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/baños/hb1.jpg");
+  background-image: url("./../media/hogar/baños/hb1.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/baños/hb2.jpg");
+  background-image: url("./../media/hogar/baños/hb2.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/baños/hb3.jpg");
+  background-image: url("./../media/hogar/baños/hb3.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/baños/hb4.jpg");
+  background-image: url("./../media/hogar/baños/hb4.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/baños/hb5.jpg");
+  background-image: url("./../media/hogar/baños/hb5.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/baños/hb6.jpg");
+  background-image: url("./../media/hogar/baños/hb6.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(7) {
-  background-image: url("./../../media/hogar/baños/hb7.jpg");
+  background-image: url("./../media/hogar/baños/hb7.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(8) {
-  background-image: url("./../../media/hogar/baños/hb8.jpg");
+  background-image: url("./../media/hogar/baños/hb8.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(9) {
-  background-image: url("./../../media/hogar/baños/hb9.jpg");
+  background-image: url("./../media/hogar/baños/hb9.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(10) {
-  background-image: url("./../../media/hogar/baños/hb10.jpg");
+  background-image: url("./../media/hogar/baños/hb10.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(11) {
-  background-image: url("./../../media/hogar/baños/hb11.jpg");
+  background-image: url("./../media/hogar/baños/hb11.jpg");
 }
 .productos .productos-container.baños .producto:nth-child(12) {
-  background-image: url("./../../media/hogar/baños/hb12.jpg");
+  background-image: url("./../media/hogar/baños/hb12.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/comedores/hcm1.jpg");
+  background-image: url("./../media/hogar/comedores/hcm1.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/comedores/hcm2.jpg");
+  background-image: url("./../media/hogar/comedores/hcm2.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/comedores/hcm3.jpg");
+  background-image: url("./../media/hogar/comedores/hcm3.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/comedores/hcm4.jpg");
+  background-image: url("./../media/hogar/comedores/hcm4.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/comedores/hcm5.jpg");
+  background-image: url("./../media/hogar/comedores/hcm5.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/comedores/hcm6.jpg");
+  background-image: url("./../media/hogar/comedores/hcm6.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(7) {
-  background-image: url("./../../media/hogar/comedores/hcm7.jpg");
+  background-image: url("./../media/hogar/comedores/hcm7.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(8) {
-  background-image: url("./../../media/hogar/comedores/hcm8.jpg");
+  background-image: url("./../media/hogar/comedores/hcm8.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(9) {
-  background-image: url("./../../media/hogar/comedores/hcm9.jpg");
+  background-image: url("./../media/hogar/comedores/hcm9.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(10) {
-  background-image: url("./../../media/hogar/comedores/hcm10.jpg");
+  background-image: url("./../media/hogar/comedores/hcm10.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(11) {
-  background-image: url("./../../media/hogar/comedores/hcm11.jpg");
+  background-image: url("./../media/hogar/comedores/hcm11.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(12) {
-  background-image: url("./../../media/hogar/comedores/hcm12.jpg");
+  background-image: url("./../media/hogar/comedores/hcm12.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(13) {
-  background-image: url("./../../media/hogar/comedores/hcm13.jpg");
+  background-image: url("./../media/hogar/comedores/hcm13.jpg");
 }
 .productos .productos-container.revestimientos-en-interior .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/revestimientos-en-interior/hri1.jpg");
+  background-image: url("./../media/hogar/revestimientos-en-interior/hri1.jpg");
 }
 .productos .productos-container.revestimientos-en-interior .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/revestimientos-en-interior/hri2.jpg");
+  background-image: url("./../media/hogar/revestimientos-en-interior/hri2.jpg");
 }
 .productos .productos-container.revestimientos-en-interior .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/revestimientos-en-interior/hri3.jpg");
+  background-image: url("./../media/hogar/revestimientos-en-interior/hri3.jpg");
 }
 .productos .productos-container.revestimientos-en-interior .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/revestimientos-en-interior/hri4.jpg");
+  background-image: url("./../media/hogar/revestimientos-en-interior/hri4.jpg");
 }
 .productos .productos-container.revestimientos-en-interior .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/revestimientos-en-interior/hri5.jpg");
+  background-image: url("./../media/hogar/revestimientos-en-interior/hri5.jpg");
 }
 .productos .productos-container.revestimientos-en-interior .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/revestimientos-en-interior/hri6.jpg");
+  background-image: url("./../media/hogar/revestimientos-en-interior/hri6.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea1.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea1.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea2.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea2.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea3.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea3.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea4.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea4.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea5.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea5.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea6.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea6.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(7) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea7.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea7.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(8) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea8.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea8.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(9) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea9.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea9.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(10) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea10.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea10.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(11) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea11.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea11.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(12) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea12.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea12.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(13) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea13.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea13.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(14) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea14.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea14.jpg");
 }
 .productos .productos-container.escaleras-y-aberturas .producto:nth-child(15) {
-  background-image: url("./../../media/hogar/escaleras-y-aberturas/hea15.jpg");
+  background-image: url("./../media/hogar/escaleras-y-aberturas/hea15.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(1) {
-  background-image: url("./../../media/hogar/exteriores/he1.jpg");
+  background-image: url("./../media/hogar/exteriores/he1.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(2) {
-  background-image: url("./../../media/hogar/exteriores/he2.jpg");
+  background-image: url("./../media/hogar/exteriores/he2.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(3) {
-  background-image: url("./../../media/hogar/exteriores/he3.jpg");
+  background-image: url("./../media/hogar/exteriores/he3.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(4) {
-  background-image: url("./../../media/hogar/exteriores/he4.jpg");
+  background-image: url("./../media/hogar/exteriores/he4.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(5) {
-  background-image: url("./../../media/hogar/exteriores/he5.jpg");
+  background-image: url("./../media/hogar/exteriores/he5.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(6) {
-  background-image: url("./../../media/hogar/exteriores/he6.jpg");
+  background-image: url("./../media/hogar/exteriores/he6.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(7) {
-  background-image: url("./../../media/hogar/exteriores/he7.jpg");
+  background-image: url("./../media/hogar/exteriores/he7.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(8) {
-  background-image: url("./../../media/hogar/exteriores/he8.jpg");
+  background-image: url("./../media/hogar/exteriores/he8.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(9) {
-  background-image: url("./../../media/hogar/exteriores/he9.jpg");
+  background-image: url("./../media/hogar/exteriores/he9.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(10) {
-  background-image: url("./../../media/hogar/exteriores/he10.jpg");
+  background-image: url("./../media/hogar/exteriores/he10.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(11) {
-  background-image: url("./../../media/hogar/exteriores/he11.jpg");
+  background-image: url("./../media/hogar/exteriores/he11.jpg");
 }
 .productos .productos-container.exteriores .producto:nth-child(12) {
-  background-image: url("./../../media/hogar/exteriores/he12.jpg");
+  background-image: url("./../media/hogar/exteriores/he12.jpg");
 }
 
 .nosotros-hero {
