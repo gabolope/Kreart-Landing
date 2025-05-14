@@ -1,8 +1,8 @@
 .clients-container {
   border-top: 3px solid $kred;
   margin: 0 auto;
-  max-width: 1200px;
-  padding: 3rem 0.75rem;
+  // max-width: 1200px;
+  padding: 3rem 0;
 
   .slider-title {
     display: flex;
@@ -19,24 +19,20 @@
 
     .slider {
       background: none;
-      height: 175px;
-      /* Adjusted value */
+      height: 175px; /* Adjusted value */
       margin: auto;
       overflow: hidden;
       position: relative;
-      width: 1200px;
+      width: 1600px; /* Must be <= to the width of each .slide * the amount of slides / 2 */
 
-      /* Must be <= to the width of each .slide * the amount of slides / 2 */
       &::before,
       &::after {
         @media only screen and (min-width: 768px) {
           @include white-gradient;
           content: "";
-          height: 175px;
-          /* Adjusted value */
+          height: 175px; /* Adjusted value */
           position: absolute;
-          width: 175px;
-          /* Adjusted value */
+          width: 175px; /* Adjusted value */
           z-index: 2;
         }
       }
@@ -53,34 +49,28 @@
       }
 
       .slide-track {
-        animation: scroll $animationSpeed linear infinite;
+        animation: scrollEmpresas $animationSpeedEmpresas linear infinite;
         display: flex;
-        width: calc(200px * 39);
-
-        /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
-        &:hover {
-          animation-play-state: paused;
-          /* Pause when mouse over the animation */
-        }
+        width: calc(
+          225px * 80
+        ); /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
       }
 
-      .slide-track .slide-hogar {
-        width: calc(200px * 8);
+      .slide-track.slide-hogar {
+        animation: scrollHogar $animationSpeedHogar linear infinite;
+        width: calc(
+          225px * 16
+        ); /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
       }
 
       .slide {
-        height: 175px;
-        /* Adjusted value */
-        width: 200px;
-
-        /* Adjusted value, the width of each slide can be > to the width of each image */
+        height: 175px; /* Adjusted value */
+        width: 225px; /* Adjusted value, the width of each slide can be > to the width of each image */
         img {
           align-self: center;
-          height: 175px;
-          /* Adjusted value */
+          height: 175px; /* Adjusted value */
           margin: 0 auto;
-          width: 175px;
-          /* Adjusted value */
+          width: 175px; /* Adjusted value */
         }
       }
     }

@@ -71,7 +71,18 @@
     </header>
     <section class="hero-container">
       <div class="hero-image">
-        <img src="./media/empresa/hero-xl.jpg" alt="" />
+        <img
+          srcset="
+            ./media/empresa/hero-sm.jpg  432w,
+            ./media/empresa/hero-md.jpg  864w,
+            ./media/empresa/hero-xl.jpg 1728w
+          "
+          sizes="(max-width: 450px) 432px,
+          (max-width: 800px) 864px,
+          1728px"
+          src="./media/empresa/hero-xl.jpg"
+          alt=""
+        />
         <h3>Empresa</h3>
       </div>
     </section>

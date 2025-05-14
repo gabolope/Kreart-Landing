@@ -7,13 +7,14 @@
   margin: 0 auto;
   margin-bottom: 3rem;
   max-width: 1200px;
-  padding: 3rem 0.75rem;
+  padding: 3rem 3.25rem 3rem 0.75rem;
   position: relative;
 
   @media only screen and (max-width: 768px) {
     align-items: center;
     background-color: $kdarkgrey;
     margin: 0 0 3rem 0;
+    padding: 3rem 0.75rem;
     width: 100%;
   }
 
@@ -49,19 +50,19 @@
       margin: 2.5rem 0;
       .slider {
         background: none;
-        height: 250px; /* Adjusted value */
+        height: 200px; /* Adjusted value */
         margin: auto;
         overflow: hidden;
         position: relative;
-        width: 1200px; /* Must be <= to the width of each .slide * the amount of slides / 2 */
+        width: 1600px; /* Must be <= to the width of each .slide * the amount of slides / 2 */
         &::before,
         &::after {
           @media only screen and (min-width: 768px) {
-            /* @include white-gradient; */
+            @include white-gradient;
             content: "";
-            height: 250px; /* Adjusted value */
+            height: 200px; /* Adjusted value */
             position: absolute;
-            width: 250px; /* Adjusted value */
+            width: 335px; /* Adjusted value */
             z-index: 2;
           }
         }
@@ -75,23 +76,22 @@
           top: 0;
         }
         .slide-track {
-          animation: scroll $animationSpeed linear infinite;
+          animation: scrollAmbientaciones $animationSpeedAmbientaciones linear
+            infinite;
           display: flex;
           width: calc(
-            250px * 8
+            375px * 16
           ); /* Adjusted value, here I calculate the width of each .slide times the total amount of slides */
-          &:hover {
-            animation-play-state: paused; /* Pause when mouse over the animation */
-          }
         }
         .slide {
-          height: 250px; /* Adjusted value */
-          width: 300px; /* Adjusted value, the width of each slide can be > to the width of each image */
+          height: 200px; /* Adjusted value */
+          width: 375px; /* Adjusted value, the width of each slide can be > to the width of each image */
           img {
             align-self: center;
-            height: 250px; /* Adjusted value */
+            border-radius: 0.25rem;
+            height: 200px; /* Adjusted value */
             margin: 0 auto;
-            width: 300px; /* Adjusted value */
+            width: 335px; /* Adjusted value */
           }
         }
       }

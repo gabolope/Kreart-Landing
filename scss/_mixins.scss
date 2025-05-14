@@ -8,16 +8,39 @@
   );
 }
 
-$animationSpeed: 20s; /* Adjusted value */
+$animationSpeedHogar: 16s; /* Adjusted value */
+$animationSpeedEmpresas: 80s; /* Adjusted value */
+$animationSpeedAmbientaciones: 20s; /* Adjusted value */
 
-// Animation
-@keyframes scroll {
+@keyframes scrollEmpresas {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(
-      calc(-200px * 6)
+      calc(-225px * 40)
+    ); // El primer término debe ser el width de .slide
+  }
+}
+
+@keyframes scrollHogar {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-225px * 8)
+    ); // El primer término debe ser el width de .slide
+  }
+}
+
+@keyframes scrollAmbientaciones {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-375px * 8)
     ); // El primer término debe ser el width de .slide
   }
 }

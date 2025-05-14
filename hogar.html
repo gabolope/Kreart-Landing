@@ -68,7 +68,19 @@
     </header>
     <section class="hero-container">
       <div class="hero-image">
-        <img src="./media/hogar/hero-xl.jpg" alt="" />
+        <!-- <img src="./media/hogar/hero-xl.jpg" alt="" /> -->
+        <img
+          srcset="
+            ./media/hogar/hero-sm.jpg  432w,
+            ./media/hogar/hero-md.jpg  864w,
+            ./media/hogar/hero-xl.jpg 1728w
+          "
+          sizes="(max-width: 450px) 432px,
+          (max-width: 800px) 864px,
+          1728px"
+          src="./media/hogar/hero-xl.jpg"
+          alt=""
+        />
         <h3>Hogar</h3>
       </div>
     </section>

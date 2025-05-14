@@ -76,6 +76,7 @@
     .box {
       align-items: center;
       background-color: $kgrey;
+      border-radius: 0.25rem;
       color: white;
       display: flex;
       flex-direction: column;
@@ -244,11 +245,50 @@
     }
   }
 }
-.nosotros-trabaja {
+
+.nosotros-equipo {
+  background-image: url("./../../media/sobre-nosotros/trabaja.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
   margin: 0 auto;
   max-width: 1200px;
-  padding-bottom: 4rem;
-  @media (max-width: 1200px) {
-        max-width: 100%;
+  min-height: 550px;
+  padding: 0 0.75rem;
+  width: 100%;
+  .text-wrapper {
+    align-items: center;
+    border: $kpurple 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 750px;
+    padding: 3em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    &::before {
+      background-color: rgba(0, 0, 0, 0.6);
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+    }
+    h3 {
+      color: $kred;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      color: $kpurple;
+      font-size: 1.75rem;
+    }
   }
 }
