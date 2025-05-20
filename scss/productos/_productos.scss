@@ -103,9 +103,6 @@
       .producto:nth-child(15) {
         background-image: url("./../media/empresa/escritorios/ees15.jpg");
       }
-      .producto:nth-child(16) {
-        background-image: url("./../media/empresa/escritorios/ees16.jpg");
-      }
     }
     &.puestos {
       .producto:nth-child(1) {
@@ -154,6 +151,15 @@
       }
       .producto:nth-child(6) {
         background-image: url("./../media/empresa/recepciones/erc6.jpg");
+      }
+      .producto:nth-child(7) {
+        background-image: url("./../media/empresa/recepciones/erc7.jpg");
+      }
+      .producto:nth-child(8) {
+        background-image: url("./../media/empresa/recepciones/erc8.jpg");
+      }
+      .producto:nth-child(9) {
+        background-image: url("./../media/empresa/recepciones/erc9.jpg");
       }
     }
     &.salas {
@@ -228,6 +234,9 @@
       .producto:nth-child(14) {
         background-image: url("./../media/empresa/revestimientos/ers14.jpg");
       }
+      .producto:nth-child(15) {
+        background-image: url("./../media/empresa/revestimientos/ers15.jpg");
+      }
     }
     &.cerramientos {
       .producto:nth-child(1) {
@@ -267,6 +276,24 @@
       }
       .producto:nth-child(6) {
         background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg6.jpg");
+      }
+      .producto:nth-child(7) {
+        background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg7.jpg");
+      }
+      .producto:nth-child(8) {
+        background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg8.jpg");
+      }
+      .producto:nth-child(9) {
+        background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg9.jpg");
+      }
+      .producto:nth-child(10) {
+        background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg10.jpg");
+      }
+      .producto:nth-child(11) {
+        background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg11.jpg");
+      }
+      .producto:nth-child(12) {
+        background-image: url("./../media/empresa/bibliotecas-y-gabinetes/ebg12.jpg");
       }
     }
     &.comerciales {
@@ -323,10 +350,10 @@
         background-image: url("./../media/hogar/cocinas/hc1.jpg");
       }
       .producto:nth-child(2) {
-        background-image: url("./../media/hogar/cocinas/hc2.jpg");
+        background-image: url("./../media/hogar/cocinas/hc2.jpeg");
       }
       .producto:nth-child(3) {
-        background-image: url("./../media/hogar/cocinas/hc3.jpg");
+        background-image: url("./../media/hogar/cocinas/hc3.jpeg");
       }
       .producto:nth-child(4) {
         background-image: url("./../media/hogar/cocinas/hc4.jpg");
@@ -366,6 +393,12 @@
       }
       .producto:nth-child(16) {
         background-image: url("./../media/hogar/cocinas/hc16.jpg");
+      }
+      .producto:nth-child(17) {
+        background-image: url("./../media/hogar/cocinas/hc17.jpg");
+      }
+      .producto:nth-child(18) {
+        background-image: url("./../media/hogar/cocinas/hc18.jpg");
       }
     }
     &.living {
@@ -468,30 +501,6 @@
       .producto:nth-child(33) {
         background-image: url("./../media/hogar/living/hl33.jpg");
       }
-      .producto:nth-child(34) {
-        background-image: url("./../media/hogar/living/hl34.jpg");
-      }
-      .producto:nth-child(35) {
-        background-image: url("./../media/hogar/living/hl35.jpg");
-      }
-      .producto:nth-child(36) {
-        background-image: url("./../media/hogar/living/hl36.jpg");
-      }
-      .producto:nth-child(37) {
-        background-image: url("./../media/hogar/living/hl37.jpg");
-      }
-      .producto:nth-child(38) {
-        background-image: url("./../media/hogar/living/hl38.jpg");
-      }
-      .producto:nth-child(39) {
-        background-image: url("./../media/hogar/living/hl39.jpg");
-      }
-      .producto:nth-child(40) {
-        background-image: url("./../media/hogar/living/hl40.jpg");
-      }
-      .producto:nth-child(41) {
-        background-image: url("./../media/hogar/living/hl41.jpg");
-      }
     }
     &.dormitorios-suite {
       .producto:nth-child(1) {
@@ -547,9 +556,6 @@
       }
       .producto:nth-child(18) {
         background-image: url("./../media/hogar/dormitorios-suite/hds18.jpg");
-      }
-      .producto:nth-child(19) {
-        background-image: url("./../media/hogar/dormitorios-suite/hds19.jpg");
       }
     }
     &.dormitorios-juveniles {
@@ -690,6 +696,12 @@
       }
       .producto:nth-child(6) {
         background-image: url("./../media/hogar/revestimientos-en-interior/hri6.jpg");
+      }
+      .producto:nth-child(7) {
+        background-image: url("./../media/hogar/revestimientos-en-interior/hri7.jpeg");
+      }
+      .producto:nth-child(8) {
+        background-image: url("./../media/hogar/revestimientos-en-interior/hri8.jpg");
       }
     }
     &.escaleras-y-aberturas {

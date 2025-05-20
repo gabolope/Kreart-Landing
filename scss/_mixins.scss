@@ -14,33 +14,33 @@ $animationSpeedAmbientaciones: 20s; /* Adjusted value */
 
 @keyframes scrollEmpresas {
   0% {
-    transform: translateX(0);
-  }
-  100% {
     transform: translateX(
       calc(-225px * 40)
     ); // El primer término debe ser el width de .slide
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
 @keyframes scrollHogar {
   0% {
-    transform: translateX(0);
-  }
-  100% {
     transform: translateX(
       calc(-225px * 8)
     ); // El primer término debe ser el width de .slide
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
 @keyframes scrollAmbientaciones {
   0% {
-    transform: translateX(0);
-  }
-  100% {
     transform: translateX(
       calc(-375px * 8)
     ); // El primer término debe ser el width de .slide
+  }
+  100% {
+    transform: translateX(0);
   }
 }

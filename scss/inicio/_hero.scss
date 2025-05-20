@@ -2,7 +2,8 @@
   color: $kdarkgrey;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 0.75rem;
+  padding: 0 0.75rem 3rem 0.75rem;
+
   .hero-text {
     font-size: 2.25rem;
     line-height: 125%;
@@ -61,46 +62,53 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 1rem;
-    margin: 0 0 50px 0;
-    @media (min-width: 576px) {
-      gap: 0;
-    }
+    margin: 0 auto;
+    max-width: 800px;
     @media (min-width: 992px) {
-      align-items: start;
+      align-items: center;
       flex-direction: row;
       justify-content: space-between;
+      max-width: none;
     }
     .phrase-image {
+      margin: 0 auto;
       max-width: 300px;
-      transform: translateX(-60px);
+      width: 100%;
       @media (min-width: 576px) {
         max-width: 375px;
       }
       @media (min-width: 768px) {
-        transform: none;
+        margin: 0 auto 0 0;
       }
       @media (min-width: 992px) {
-        flex-shrink: 10;
-        transform: translateX(0);
+        margin: 0;
+        max-width: 500px;
+        order: 2;
+        width: 100%;
+      }
+      // @media (min-width: 1200px) {
+      //   max-width: 500px;
+      // }
+      img {
+        border-radius: 1rem;
       }
     }
     .phrase-text {
-      align-self: end;
       font-size: 1.5rem;
-      max-width: 365px;
-      text-align: end;
-      @media (min-width: 576px) {
-        max-width: 350px;
-      }
+      margin: 0 auto;
+      max-width: 650px;
+      text-align: center;
       @media (min-width: 768px) {
-        max-width: 675px;
+        margin: 0 0 0 auto;
+        text-align: end;
       }
       @media (min-width: 992px) {
-        align-self: auto;
-        flex-basis: 750px;
+        flex-shrink: 0;
         font-size: 1.75rem;
-        line-height: 125%;
-        max-width: 750px;
+        line-height: 150%;
+        margin: 0;
+        text-align: left;
+        width: 500px;
       }
       span:first-of-type {
         color: $kred;

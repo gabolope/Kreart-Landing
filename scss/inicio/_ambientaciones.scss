@@ -1,5 +1,4 @@
 .ambientaciones-container {
-  align-items: flex-end;
   display: flex;
   flex-direction: column;
   height: 600px;
@@ -9,45 +8,45 @@
   max-width: 1200px;
   padding: 3rem 3.25rem 3rem 0.75rem;
   position: relative;
-
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     align-items: center;
-    background-color: $kdarkgrey;
+    background-color: $kpurple;
     margin: 0 0 3rem 0;
     padding: 3rem 0.75rem;
     width: 100%;
   }
-
   .text {
-    color: white;
+    color: $kdarkgrey;
     font-size: 2rem;
-    text-align: end;
-    margin: 0 4.5rem 2rem 0;
-    @media only screen and (max-width: 768px) {
+    text-align: left;
+    margin: 0 0 2rem 5.5rem;
+    @media only screen and (max-width: 767px) {
       margin: 0 0 2rem 0;
       text-align: center;
     }
   }
   .circle {
-    background-color: $kdarkgrey;
+    background-color: $kpurple;
     border-radius: 100%;
+    left: 0;
     height: 600px;
     max-width: 600px;
     position: absolute;
-    right: 0;
     width: 100%;
     z-index: -2;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
       display: none;
     }
   }
-
   .carousel {
     .slider-container {
       align-items: center;
       display: flex;
       justify-content: center;
       margin: 2.5rem 0;
+      @media only screen and (min-width: 768px) {
+        padding-left: 1.5rem;
+      }
       .slider {
         background: none;
         height: 200px; /* Adjusted value */
@@ -55,6 +54,11 @@
         overflow: hidden;
         position: relative;
         width: 1600px; /* Must be <= to the width of each .slide * the amount of slides / 2 */
+        @media only screen and (min-width: 768px) {
+          border-bottom-left-radius: 1.5rem;
+          border-top-left-radius: 0.25rem;
+          border-color: $kpurple;
+        }
         &::before,
         &::after {
           @media only screen and (min-width: 768px) {
@@ -96,7 +100,7 @@
         }
       }
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
       max-width: 100%;
     }
   }
