@@ -31,7 +31,9 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
     <script defer src="./js/animations.js"></script>
+    <script defer src="./js/validation.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
@@ -787,27 +789,34 @@
     </section>
     <section class="contact">
       <h3 class="section-title">Contactanos</h3>
-      <form method="" action="">
+      <form id="contactForm" method="POST" action="email.php" novalidate>
         <div class="contact-container">
           <div class="contact-information">
             <input
               class="form-name"
               type="text"
+              name="name"
               placeholder="Nombre"
               required
             />
             <input
               class="form-email"
               type="email"
+              name="email"
               placeholder="Correo electrónico"
               required
             />
-            <input class="form-subject" type="text" placeholder="Asunto" />
+            <input
+              class="form-subject"
+              type="text"
+              name="subject"
+              placeholder="Asunto"
+            />
           </div>
           <div class="contact-message">
             <textarea
               class="form-text"
-              name="comment"
+              name="message"
               id="contact"
               placeholder="Consulta"
               required
