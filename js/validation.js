@@ -29,6 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    const sendButton = form.querySelector(".send");
+    sendButton.disabled = true;
+    sendButton.textContent = "Enviando...";
+
     try {
       const response = await fetch("email.php", {
         method: "POST",
@@ -50,6 +54,9 @@ document.addEventListener("DOMContentLoaded", () => {
         text: "Hubo un problema inesperado al enviar el mensaje. Por favor intentá más tarde.",
       });
       console.error("Error:", error);
+    } finally {
+      sendButton.disabled = false;
+      sendButton.textContent = "Enviar";
     }
   });
 });

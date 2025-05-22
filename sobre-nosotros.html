@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PVCQMW5");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,9 +44,54 @@
     ></script>
     <script defer src="./js/animations.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "773793283211432");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=773793283211432&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
   </head>
-
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PVCQMW5"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -103,16 +162,28 @@
     </section>
     <section class="nosotros-contexto">
       <div class="contexto-card experiencia hidden">
-        <img src="./media/sobre-nosotros/experiencia-xl.jpg" alt="" />
+        <img
+          src="./media/sobre-nosotros/experiencia-xl.jpg"
+          alt="30 años de experiencia"
+        />
       </div>
       <div class="contexto-card materiales hidden">
-        <img src="./media/sobre-nosotros/materiales-xl.jpg" alt="" />
+        <img
+          src="./media/sobre-nosotros/materiales-xl.jpg"
+          alt="Materiales y accesorios de la más alta calidad"
+        />
       </div>
       <div class="contexto-card bocetos hidden">
-        <img src="./media/sobre-nosotros/bocetos-xl.png" alt="" />
+        <img
+          src="./media/sobre-nosotros/bocetos-xl.png"
+          alt="Previsualización de bocetos 3D"
+        />
       </div>
       <div class="contexto-card amoblamiento hidden">
-        <img src="./media/sobre-nosotros/amoblamiento-xl.jpg" alt="" />
+        <img
+          src="./media/sobre-nosotros/amoblamiento-xl.jpg"
+          alt="Amoblamiento a medida"
+        />
       </div>
     </section>
     <section class="nosotros-historia">
@@ -126,8 +197,8 @@
             <span>atención personalizada</span>.
           </p>
           <img
-            src="./media/sobre-nosotros/historia1.png"
-            alt="Imagen de herramientas"
+            src="./media/sobre-nosotros/historia1.jpg"
+            alt="Oficinas de Kreart en sus inicios"
             class="img1"
           />
         </div>
@@ -135,7 +206,7 @@
         <div class="historia-block bottom hidden">
           <img
             src="./media/sobre-nosotros/historia2.png"
-            alt="Imagen de herramientas"
+            alt="Herramientas para la construcción"
             class="img2"
           />
           <p>
