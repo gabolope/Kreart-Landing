@@ -40,17 +40,18 @@ try {
 
     // Configuración SMTP
     $mail->isSMTP();
-    $mail->Host       = '[HOST]'; // Reemplazar
+    $mail->Host       = 'HOST'; // REEMPLAZAR
     $mail->SMTPAuth   = true;
     $mail->Username   = 'contacto@kreart.com.ar';
-    $mail->Password   = '[PASS]'; // Reemplazar
+    $mail->Password   = 'PASS'; // REEMPLAZAR
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
     $mail->CharSet    = 'UTF-8';
 
     // Remitente y destinatario
+
     $mail->setFrom('contacto@kreart.com.ar', 'Formulario Web');
-    $mail->addAddress('contacto@kreart.com.ar');
+    $mail->addAddress('info@kreart.com.ar');     // Cliente
     $mail->addReplyTo($userEmail, $userName);
 
     // Contenido del mensaje

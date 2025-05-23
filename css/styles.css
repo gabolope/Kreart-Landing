@@ -1535,8 +1535,8 @@ footer .footer-suri img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_dormitorio_juvenil.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(5) {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_baño.jpg ");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_baño.jpg ");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_banio.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./../media/hogar/seccion_banio.jpg ");
 }
 .categorias .categorias-container.hogar .categoria:nth-child(6) {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./../media/hogar/seccion_comedores.jpg ");
@@ -2165,41 +2165,41 @@ footer .footer-suri img {
 .productos .productos-container.dormitorios-juveniles .producto:nth-child(13) {
   background-image: url("./../media/hogar/dormitorios-juveniles/hdj13.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(1) {
-  background-image: url("./../media/hogar/baños/hb1.jpg");
+.productos .productos-container.banios .producto:nth-child(1) {
+  background-image: url("./../media/hogar/banios/hb1.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(2) {
-  background-image: url("./../media/hogar/baños/hb2.jpg");
+.productos .productos-container.banios .producto:nth-child(2) {
+  background-image: url("./../media/hogar/banios/hb2.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(3) {
-  background-image: url("./../media/hogar/baños/hb3.jpg");
+.productos .productos-container.banios .producto:nth-child(3) {
+  background-image: url("./../media/hogar/banios/hb3.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(4) {
-  background-image: url("./../media/hogar/baños/hb4.jpg");
+.productos .productos-container.banios .producto:nth-child(4) {
+  background-image: url("./../media/hogar/banios/hb4.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(5) {
-  background-image: url("./../media/hogar/baños/hb5.jpg");
+.productos .productos-container.banios .producto:nth-child(5) {
+  background-image: url("./../media/hogar/banios/hb5.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(6) {
-  background-image: url("./../media/hogar/baños/hb6.jpg");
+.productos .productos-container.banios .producto:nth-child(6) {
+  background-image: url("./../media/hogar/banios/hb6.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(7) {
-  background-image: url("./../media/hogar/baños/hb7.jpg");
+.productos .productos-container.banios .producto:nth-child(7) {
+  background-image: url("./../media/hogar/banios/hb7.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(8) {
-  background-image: url("./../media/hogar/baños/hb8.jpg");
+.productos .productos-container.banios .producto:nth-child(8) {
+  background-image: url("./../media/hogar/banios/hb8.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(9) {
-  background-image: url("./../media/hogar/baños/hb9.jpg");
+.productos .productos-container.banios .producto:nth-child(9) {
+  background-image: url("./../media/hogar/banios/hb9.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(10) {
-  background-image: url("./../media/hogar/baños/hb10.jpg");
+.productos .productos-container.banios .producto:nth-child(10) {
+  background-image: url("./../media/hogar/banios/hb10.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(11) {
-  background-image: url("./../media/hogar/baños/hb11.jpg");
+.productos .productos-container.banios .producto:nth-child(11) {
+  background-image: url("./../media/hogar/banios/hb11.jpg");
 }
-.productos .productos-container.baños .producto:nth-child(12) {
-  background-image: url("./../media/hogar/baños/hb12.jpg");
+.productos .productos-container.banios .producto:nth-child(12) {
+  background-image: url("./../media/hogar/banios/hb12.jpg");
 }
 .productos .productos-container.comedores .producto:nth-child(1) {
   background-image: url("./../media/hogar/comedores/hcm1.jpg");
